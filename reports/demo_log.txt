@@ -1,0 +1,7 @@
+low Test split, UDI 7302, product L54481 False [] {'type': 'L', 'air_temp_k': 300.1, 'process_temp_k': 310.4, 'rotational_speed_rpm': 1554.0, 'torque_nm': 39.4, 'tool_wear_min': 115.0}
+high Test split, UDI 5401, product L52580 True ['osf'] {'type': 'L', 'air_temp_k': 302.7, 'process_temp_k': 312.4, 'rotational_speed_rpm': 1477.0, 'torque_nm': 46.3, 'tool_wear_min': 251.0}
+borderline Test split, UDI 593, product H30006 False [] {'type': 'H', 'air_temp_k': 297.5, 'process_temp_k': 309.5, 'rotational_speed_rpm': 1668.0, 'torque_nm': 27.9, 'tool_wear_min': 240.0}
+invalid Constructed to test input validation (not a dataset record) None [] {'type': 'L', 'air_temp_k': 300.0, 'process_temp_k': 310.0, 'rotational_speed_rpm': -1200, 'torque_nm': 'forty', 'tool_wear_min': 50}
+hdf Test split, UDI 4171, product M19030 True ['hdf'] {'type': 'M', 'air_temp_k': 302.2, 'process_temp_k': 310.6, 'rotational_speed_rpm': 1355.0, 'torque_nm': 51.5, 'tool_wear_min': 126.0}
+pwf Test split, UDI 1017, product M15876 True ['pwf'] {'type': 'M', 'air_temp_k': 296.3, 'process_temp_k': 307.2, 'rotational_speed_rpm': 1319.0, 'torque_nm': 68.3, 'tool_wear_min': 24.0}
+check (not stored): {'low': 0.001, 'high': 0.86, 'borderline': 0.275, 'hdf': 0.98, 'pwf': 0.994}

@@ -1,0 +1,107 @@
+{
+ "note": "Inputs from the unseen test split; predictions are computed live.",
+ "cases": [
+  {
+   "id": "low",
+   "title": "Low-risk machine",
+   "selection_rule": "Normal test record nearest the median operating point, scored LOW",
+   "source": "Test split, UDI 7302, product L54481",
+   "actual_failure": false,
+   "actual_failure_modes": [],
+   "input": {
+    "type": "L",
+    "air_temp_k": 300.1,
+    "process_temp_k": 310.4,
+    "rotational_speed_rpm": 1554.0,
+    "torque_nm": 39.4,
+    "tool_wear_min": 115.0
+   }
+  },
+  {
+   "id": "high",
+   "title": "High-risk machine",
+   "selection_rule": "Actual overstrain failure in the test split, scored HIGH, highest tool wear",
+   "source": "Test split, UDI 5401, product L52580",
+   "actual_failure": true,
+   "actual_failure_modes": [
+    "osf"
+   ],
+   "input": {
+    "type": "L",
+    "air_temp_k": 302.7,
+    "process_temp_k": 312.4,
+    "rotational_speed_rpm": 1477.0,
+    "torque_nm": 46.3,
+    "tool_wear_min": 251.0
+   }
+  },
+  {
+   "id": "borderline",
+   "title": "Borderline machine",
+   "selection_rule": "Test record with probability closest to (below) the HIGH threshold",
+   "source": "Test split, UDI 593, product H30006",
+   "actual_failure": false,
+   "actual_failure_modes": [],
+   "input": {
+    "type": "H",
+    "air_temp_k": 297.5,
+    "process_temp_k": 309.5,
+    "rotational_speed_rpm": 1668.0,
+    "torque_nm": 27.9,
+    "tool_wear_min": 240.0
+   }
+  },
+  {
+   "id": "invalid",
+   "title": "Invalid input",
+   "selection_rule": "Negative rotational speed and non-numeric torque; must be rejected by validation",
+   "source": "Constructed to test input validation (not a dataset record)",
+   "actual_failure": null,
+   "actual_failure_modes": [],
+   "input": {
+    "type": "L",
+    "air_temp_k": 300.0,
+    "process_temp_k": 310.0,
+    "rotational_speed_rpm": -1200,
+    "torque_nm": "forty",
+    "tool_wear_min": 50
+   }
+  },
+  {
+   "id": "hdf",
+   "title": "Heat dissipation failure (actual)",
+   "selection_rule": "Actual HDF failure in the test split with the highest score",
+   "source": "Test split, UDI 4171, product M19030",
+   "actual_failure": true,
+   "actual_failure_modes": [
+    "hdf"
+   ],
+   "input": {
+    "type": "M",
+    "air_temp_k": 302.2,
+    "process_temp_k": 310.6,
+    "rotational_speed_rpm": 1355.0,
+    "torque_nm": 51.5,
+    "tool_wear_min": 126.0
+   }
+  },
+  {
+   "id": "pwf",
+   "title": "Power failure (actual)",
+   "selection_rule": "Actual PWF failure in the test split with the highest score",
+   "source": "Test split, UDI 1017, product M15876",
+   "actual_failure": true,
+   "actual_failure_modes": [
+    "pwf"
+   ],
+   "input": {
+    "type": "M",
+    "air_temp_k": 296.3,
+    "process_temp_k": 307.2,
+    "rotational_speed_rpm": 1319.0,
+    "torque_nm": 68.3,
+    "tool_wear_min": 24.0
+   }
+  }
+ ]
+}

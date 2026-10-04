@@ -1,0 +1,11471 @@
+{
+ "computed_on": "training split only",
+ "n_rows": 6000,
+ "imbalance": {
+  "target_counts": {
+   "normal": 5796,
+   "failed": 204
+  },
+  "mode_counts": {
+   "Tool wear failure": 29,
+   "Heat dissipation failure": 71,
+   "Power failure": 54,
+   "Overstrain failure": 58,
+   "Random failure": 11
+  }
+ },
+ "distributions": {
+  "air_temp_k": {
+   "bins": [
+    295.3,
+    295.607,
+    295.913,
+    296.22,
+    296.527,
+    296.833,
+    297.14,
+    297.447,
+    297.753,
+    298.06,
+    298.367,
+    298.673,
+    298.98,
+    299.287,
+    299.593,
+    299.9,
+    300.207,
+    300.513,
+    300.82,
+    301.127,
+    301.433,
+    301.74,
+    302.047,
+    302.353,
+    302.66,
+    302.967,
+    303.273,
+    303.58,
+    303.887,
+    304.193,
+    304.5
+   ],
+   "normal": [
+    35,
+    28,
+    23,
+    37,
+    74,
+    125,
+    321,
+    270,
+    250,
+    328,
+    245,
+    353,
+    283,
+    186,
+    223,
+    340,
+    366,
+    396,
+    251,
+    213,
+    220,
+    193,
+    246,
+    227,
+    109,
+    54,
+    125,
+    147,
+    95,
+    33
+   ],
+   "failed": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    5,
+    10,
+    1,
+    8,
+    6,
+    7,
+    5,
+    12,
+    3,
+    3,
+    4,
+    11,
+    13,
+    5,
+    2,
+    9,
+    19,
+    18,
+    19,
+    8,
+    12,
+    11,
+    7,
+    2,
+    0
+   ],
+   "normal_mean": 299.967,
+   "failed_mean": 300.846,
+   "normal_median": 300.0,
+   "failed_median": 301.55,
+   "standardized_mean_difference": 0.432
+  },
+  "process_temp_k": {
+   "bins": [
+    305.7,
+    305.97,
+    306.24,
+    306.51,
+    306.78,
+    307.05,
+    307.32,
+    307.59,
+    307.86,
+    308.13,
+    308.4,
+    308.67,
+    308.94,
+    309.21,
+    309.48,
+    309.75,
+    310.02,
+    310.29,
+    310.56,
+    310.83,
+    311.1,
+    311.37,
+    311.64,
+    311.91,
+    312.18,
+    312.45,
+    312.72,
+    312.99,
+    313.26,
+    313.53,
+    313.8
+   ],
+   "normal": [
+    6,
+    37,
+    14,
+    9,
+    5,
+    53,
+    53,
+    192,
+    256,
+    202,
+    470,
+    334,
+    356,
+    249,
+    387,
+    300,
+    255,
+    390,
+    508,
+    270,
+    331,
+    321,
+    247,
+    94,
+    150,
+    102,
+    49,
+    100,
+    44,
+    12
+   ],
+   "failed": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    3,
+    4,
+    7,
+    10,
+    9,
+    7,
+    3,
+    7,
+    6,
+    13,
+    14,
+    23,
+    21,
+    20,
+    15,
+    10,
+    15,
+    5,
+    6,
+    1,
+    2,
+    1,
+    0,
+    0
+   ],
+   "normal_mean": 309.99,
+   "failed_mean": 310.25,
+   "normal_median": 310.0,
+   "failed_median": 310.5,
+   "standardized_mean_difference": 0.183
+  },
+  "rotational_speed_rpm": {
+   "bins": [
+    1168.0,
+    1224.867,
+    1281.733,
+    1338.6,
+    1395.467,
+    1452.333,
+    1509.2,
+    1566.067,
+    1622.933,
+    1679.8,
+    1736.667,
+    1793.533,
+    1850.4,
+    1907.267,
+    1964.133,
+    2021.0,
+    2077.867,
+    2134.733,
+    2191.6,
+    2248.467,
+    2305.333,
+    2362.2,
+    2419.067,
+    2475.933,
+    2532.8,
+    2589.667,
+    2646.533,
+    2703.4,
+    2760.267,
+    2817.133,
+    2874.0
+   ],
+   "normal": [
+    7,
+    49,
+    233,
+    617,
+    991,
+    1035,
+    870,
+    618,
+    445,
+    301,
+    185,
+    130,
+    95,
+    71,
+    46,
+    25,
+    17,
+    20,
+    15,
+    9,
+    5,
+    3,
+    3,
+    2,
+    1,
+    2,
+    1,
+    0,
+    0,
+    0
+   ],
+   "failed": [
+    2,
+    14,
+    45,
+    75,
+    27,
+    8,
+    5,
+    4,
+    1,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    4,
+    6,
+    2,
+    0,
+    2
+   ],
+   "normal_mean": 1540.808,
+   "failed_mean": 1488.083,
+   "normal_median": 1507.0,
+   "failed_median": 1366.0,
+   "standardized_mean_difference": -0.181
+  },
+  "torque_nm": {
+   "bins": [
+    4.2,
+    6.613,
+    9.027,
+    11.44,
+    13.853,
+    16.267,
+    18.68,
+    21.093,
+    23.507,
+    25.92,
+    28.333,
+    30.747,
+    33.16,
+    35.573,
+    37.987,
+    40.4,
+    42.813,
+    45.227,
+    47.64,
+    50.053,
+    52.467,
+    54.88,
+    57.293,
+    59.707,
+    62.12,
+    64.533,
+    66.947,
+    69.36,
+    71.773,
+    74.187,
+    76.6
+   ],
+   "normal": [
+    0,
+    0,
+    0,
+    6,
+    23,
+    47,
+    81,
+    139,
+    165,
+    258,
+    335,
+    426,
+    453,
+    572,
+    518,
+    557,
+    521,
+    484,
+    402,
+    299,
+    215,
+    116,
+    91,
+    54,
+    24,
+    7,
+    2,
+    1,
+    0,
+    0
+   ],
+   "failed": [
+    2,
+    1,
+    5,
+    9,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    5,
+    1,
+    1,
+    7,
+    1,
+    6,
+    6,
+    11,
+    18,
+    16,
+    22,
+    19,
+    13,
+    14,
+    17,
+    7,
+    9,
+    6,
+    2,
+    3
+   ],
+   "normal_mean": 39.636,
+   "failed_mean": 50.373,
+   "normal_median": 39.8,
+   "failed_median": 53.65,
+   "standardized_mean_difference": 0.823
+  },
+  "tool_wear_min": {
+   "bins": [
+    0.0,
+    8.433,
+    16.867,
+    25.3,
+    33.733,
+    42.167,
+    50.6,
+    59.033,
+    67.467,
+    75.9,
+    84.333,
+    92.767,
+    101.2,
+    109.633,
+    118.067,
+    126.5,
+    134.933,
+    143.367,
+    151.8,
+    160.233,
+    168.667,
+    177.1,
+    185.533,
+    193.967,
+    202.4,
+    210.833,
+    219.267,
+    227.7,
+    236.133,
+    244.567,
+    253.0
+   ],
+   "normal": [
+    266,
+    244,
+    260,
+    205,
+    234,
+    217,
+    232,
+    211,
+    209,
+    251,
+    200,
+    235,
+    212,
+    233,
+    224,
+    224,
+    241,
+    205,
+    234,
+    203,
+    259,
+    202,
+    226,
+    247,
+    152,
+    107,
+    37,
+    19,
+    6,
+    1
+   ],
+   "failed": [
+    6,
+    4,
+    9,
+    5,
+    4,
+    1,
+    2,
+    11,
+    5,
+    5,
+    10,
+    8,
+    5,
+    8,
+    7,
+    4,
+    1,
+    4,
+    6,
+    4,
+    3,
+    2,
+    7,
+    14,
+    22,
+    23,
+    12,
+    9,
+    1,
+    2
+   ],
+   "normal_mean": 106.505,
+   "failed_mean": 141.912,
+   "normal_median": 107.0,
+   "failed_median": 153.5,
+   "standardized_mean_difference": 0.517
+  },
+  "temp_diff_k": {
+   "bins": [
+    7.6,
+    7.75,
+    7.9,
+    8.05,
+    8.2,
+    8.35,
+    8.5,
+    8.65,
+    8.8,
+    8.95,
+    9.1,
+    9.25,
+    9.4,
+    9.55,
+    9.7,
+    9.85,
+    10.0,
+    10.15,
+    10.3,
+    10.45,
+    10.6,
+    10.75,
+    10.9,
+    11.05,
+    11.2,
+    11.35,
+    11.5,
+    11.65,
+    11.8,
+    11.95,
+    12.1
+   ],
+   "normal": [
+    27,
+    43,
+    52,
+    27,
+    65,
+    41,
+    119,
+    108,
+    261,
+    285,
+    370,
+    459,
+    379,
+    419,
+    262,
+    172,
+    220,
+    86,
+    136,
+    167,
+    216,
+    300,
+    317,
+    487,
+    294,
+    319,
+    53,
+    59,
+    35,
+    18
+   ],
+   "failed": [
+    5,
+    7,
+    8,
+    6,
+    15,
+    15,
+    25,
+    3,
+    9,
+    5,
+    7,
+    9,
+    9,
+    10,
+    2,
+    2,
+    5,
+    3,
+    5,
+    4,
+    3,
+    9,
+    9,
+    13,
+    7,
+    7,
+    1,
+    0,
+    1,
+    0
+   ],
+   "normal_mean": 10.023,
+   "failed_mean": 9.404,
+   "normal_median": 9.8,
+   "failed_median": 9.2,
+   "standardized_mean_difference": -0.57
+  },
+  "power_w": {
+   "bins": [
+    1264.051,
+    1563.021,
+    1861.991,
+    2160.961,
+    2459.931,
+    2758.901,
+    3057.871,
+    3356.841,
+    3655.811,
+    3954.781,
+    4253.751,
+    4552.721,
+    4851.691,
+    5150.661,
+    5449.631,
+    5748.601,
+    6047.571,
+    6346.541,
+    6645.511,
+    6944.481,
+    7243.451,
+    7542.422,
+    7841.392,
+    8140.362,
+    8439.332,
+    8738.302,
+    9037.272,
+    9336.242,
+    9635.212,
+    9934.182,
+    10233.152
+   ],
+   "normal": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    18,
+    47,
+    91,
+    151,
+    210,
+    330,
+    457,
+    546,
+    636,
+    645,
+    582,
+    590,
+    499,
+    398,
+    249,
+    172,
+    101,
+    46,
+    28,
+    0,
+    0,
+    0,
+    0
+   ],
+   "failed": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    2,
+    5,
+    7,
+    0,
+    1,
+    0,
+    0,
+    5,
+    2,
+    2,
+    6,
+    10,
+    4,
+    19,
+    15,
+    19,
+    14,
+    16,
+    18,
+    12,
+    12,
+    14,
+    11,
+    3,
+    3
+   ],
+   "normal_mean": 6245.987,
+   "failed_mean": 7309.291,
+   "normal_median": 6241.057,
+   "failed_median": 7557.614,
+   "standardized_mean_difference": 0.735
+  },
+  "strain_nm_min": {
+   "bins": [
+    0.0,
+    499.983,
+    999.967,
+    1499.95,
+    1999.933,
+    2499.917,
+    2999.9,
+    3499.883,
+    3999.867,
+    4499.85,
+    4999.833,
+    5499.817,
+    5999.8,
+    6499.783,
+    6999.767,
+    7499.75,
+    7999.733,
+    8499.717,
+    8999.7,
+    9499.683,
+    9999.667,
+    10499.65,
+    10999.633,
+    11499.617,
+    11999.6,
+    12499.583,
+    12999.567,
+    13499.55,
+    13999.533,
+    14499.517,
+    14999.5
+   ],
+   "normal": [
+    405,
+    390,
+    346,
+    358,
+    356,
+    361,
+    350,
+    380,
+    340,
+    346,
+    316,
+    301,
+    285,
+    253,
+    211,
+    199,
+    156,
+    134,
+    112,
+    84,
+    55,
+    44,
+    7,
+    7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "failed": [
+    15,
+    6,
+    13,
+    4,
+    2,
+    3,
+    2,
+    8,
+    5,
+    7,
+    7,
+    6,
+    8,
+    9,
+    4,
+    10,
+    10,
+    8,
+    4,
+    4,
+    3,
+    6,
+    22,
+    16,
+    10,
+    6,
+    2,
+    2,
+    1,
+    1
+   ],
+   "normal_mean": 4196.364,
+   "failed_mean": 7166.99,
+   "normal_median": 3934.25,
+   "failed_median": 7648.2,
+   "standardized_mean_difference": 0.848
+  }
+ },
+ "rate_by_decile": {
+  "air_temp_k": [
+   {
+    "low": 295.299,
+    "high": 297.4,
+    "rate": 0.0287,
+    "n": 662,
+    "failures": 19
+   },
+   {
+    "low": 297.4,
+    "high": 298.1,
+    "rate": 0.0187,
+    "n": 641,
+    "failures": 12
+   },
+   {
+    "low": 298.1,
+    "high": 298.7,
+    "rate": 0.0215,
+    "n": 559,
+    "failures": 12
+   },
+   {
+    "low": 298.7,
+    "high": 299.2,
+    "rate": 0.0264,
+    "n": 568,
+    "failures": 15
+   },
+   {
+    "low": 299.2,
+    "high": 300.1,
+    "rate": 0.014,
+    "n": 642,
+    "failures": 9
+   },
+   {
+    "low": 300.1,
+    "high": 300.6,
+    "rate": 0.0241,
+    "n": 622,
+    "failures": 15
+   },
+   {
+    "low": 300.6,
+    "high": 301.1,
+    "rate": 0.0279,
+    "n": 537,
+    "failures": 15
+   },
+   {
+    "low": 301.1,
+    "high": 301.9,
+    "rate": 0.0377,
+    "n": 584,
+    "failures": 22
+   },
+   {
+    "low": 301.9,
+    "high": 302.7,
+    "rate": 0.0824,
+    "n": 631,
+    "failures": 52
+   },
+   {
+    "low": 302.7,
+    "high": 304.5,
+    "rate": 0.0596,
+    "n": 554,
+    "failures": 33
+   }
+  ],
+  "process_temp_k": [
+   {
+    "low": 305.699,
+    "high": 308.1,
+    "rate": 0.025,
+    "n": 641,
+    "failures": 16
+   },
+   {
+    "low": 308.1,
+    "high": 308.6,
+    "rate": 0.0275,
+    "n": 691,
+    "failures": 19
+   },
+   {
+    "low": 308.6,
+    "high": 309.1,
+    "rate": 0.0155,
+    "n": 580,
+    "failures": 9
+   },
+   {
+    "low": 309.1,
+    "high": 309.5,
+    "rate": 0.0219,
+    "n": 502,
+    "failures": 11
+   },
+   {
+    "low": 309.5,
+    "high": 310.1,
+    "rate": 0.0333,
+    "n": 721,
+    "failures": 24
+   },
+   {
+    "low": 310.1,
+    "high": 310.5,
+    "rate": 0.0536,
+    "n": 541,
+    "failures": 29
+   },
+   {
+    "low": 310.5,
+    "high": 310.8,
+    "rate": 0.0397,
+    "n": 529,
+    "failures": 21
+   },
+   {
+    "low": 310.8,
+    "high": 311.3,
+    "rate": 0.055,
+    "n": 636,
+    "failures": 35
+   },
+   {
+    "low": 311.3,
+    "high": 311.9,
+    "rate": 0.0422,
+    "n": 593,
+    "failures": 25
+   },
+   {
+    "low": 311.9,
+    "high": 313.8,
+    "rate": 0.0265,
+    "n": 566,
+    "failures": 15
+   }
+  ],
+  "rotational_speed_rpm": [
+   {
+    "low": 1167.999,
+    "high": 1363.0,
+    "rate": 0.1623,
+    "n": 604,
+    "failures": 98
+   },
+   {
+    "low": 1363.0,
+    "high": 1405.0,
+    "rate": 0.0831,
+    "n": 602,
+    "failures": 50
+   },
+   {
+    "low": 1405.0,
+    "high": 1440.0,
+    "rate": 0.0182,
+    "n": 606,
+    "failures": 11
+   },
+   {
+    "low": 1440.0,
+    "high": 1470.0,
+    "rate": 0.0151,
+    "n": 596,
+    "failures": 9
+   },
+   {
+    "low": 1470.0,
+    "high": 1503.0,
+    "rate": 0.005,
+    "n": 598,
+    "failures": 3
+   },
+   {
+    "low": 1503.0,
+    "high": 1541.0,
+    "rate": 0.0066,
+    "n": 605,
+    "failures": 4
+   },
+   {
+    "low": 1541.0,
+    "high": 1584.0,
+    "rate": 0.0034,
+    "n": 597,
+    "failures": 2
+   },
+   {
+    "low": 1584.0,
+    "high": 1646.0,
+    "rate": 0.005,
+    "n": 597,
+    "failures": 3
+   },
+   {
+    "low": 1646.0,
+    "high": 1748.0,
+    "rate": 0.0084,
+    "n": 597,
+    "failures": 5
+   },
+   {
+    "low": 1748.0,
+    "high": 2874.0,
+    "rate": 0.0318,
+    "n": 598,
+    "failures": 19
+   }
+  ],
+  "torque_nm": [
+   {
+    "low": 4.199,
+    "high": 27.2,
+    "rate": 0.0331,
+    "n": 605,
+    "failures": 20
+   },
+   {
+    "low": 27.2,
+    "high": 31.3,
+    "rate": 0.0101,
+    "n": 597,
+    "failures": 6
+   },
+   {
+    "low": 31.3,
+    "high": 34.7,
+    "rate": 0.0,
+    "n": 599,
+    "failures": 0
+   },
+   {
+    "low": 34.7,
+    "high": 37.4,
+    "rate": 0.0082,
+    "n": 610,
+    "failures": 5
+   },
+   {
+    "low": 37.4,
+    "high": 40.1,
+    "rate": 0.0067,
+    "n": 596,
+    "failures": 4
+   },
+   {
+    "low": 40.1,
+    "high": 42.8,
+    "rate": 0.0098,
+    "n": 614,
+    "failures": 6
+   },
+   {
+    "low": 42.8,
+    "high": 45.5,
+    "rate": 0.0117,
+    "n": 597,
+    "failures": 7
+   },
+   {
+    "low": 45.5,
+    "high": 48.4,
+    "rate": 0.0323,
+    "n": 589,
+    "failures": 19
+   },
+   {
+    "low": 48.4,
+    "high": 52.7,
+    "rate": 0.0481,
+    "n": 603,
+    "failures": 29
+   },
+   {
+    "low": 52.7,
+    "high": 76.6,
+    "rate": 0.1831,
+    "n": 590,
+    "failures": 108
+   }
+  ],
+  "tool_wear_min": [
+   {
+    "low": -0.001,
+    "high": 19.0,
+    "rate": 0.0214,
+    "n": 608,
+    "failures": 13
+   },
+   {
+    "low": 19.0,
+    "high": 41.0,
+    "rate": 0.025,
+    "n": 599,
+    "failures": 15
+   },
+   {
+    "low": 41.0,
+    "high": 64.0,
+    "rate": 0.0147,
+    "n": 613,
+    "failures": 9
+   },
+   {
+    "low": 64.0,
+    "high": 85.0,
+    "rate": 0.0271,
+    "n": 590,
+    "failures": 16
+   },
+   {
+    "low": 85.0,
+    "high": 108.0,
+    "rate": 0.0361,
+    "n": 609,
+    "failures": 22
+   },
+   {
+    "low": 108.0,
+    "high": 129.0,
+    "rate": 0.0256,
+    "n": 586,
+    "failures": 15
+   },
+   {
+    "low": 129.0,
+    "high": 151.0,
+    "rate": 0.0151,
+    "n": 597,
+    "failures": 9
+   },
+   {
+    "low": 151.0,
+    "high": 174.0,
+    "rate": 0.0193,
+    "n": 623,
+    "failures": 12
+   },
+   {
+    "low": 174.0,
+    "high": 195.0,
+    "rate": 0.0225,
+    "n": 577,
+    "failures": 13
+   },
+   {
+    "low": 195.0,
+    "high": 253.0,
+    "rate": 0.1338,
+    "n": 598,
+    "failures": 80
+   }
+  ],
+  "temp_diff_k": [
+   {
+    "low": 7.599,
+    "high": 8.8,
+    "rate": 0.1336,
+    "n": 666,
+    "failures": 89
+   },
+   {
+    "low": 8.8,
+    "high": 9.1,
+    "rate": 0.0187,
+    "n": 587,
+    "failures": 11
+   },
+   {
+    "low": 9.1,
+    "high": 9.4,
+    "rate": 0.0195,
+    "n": 718,
+    "failures": 14
+   },
+   {
+    "low": 9.4,
+    "high": 9.6,
+    "rate": 0.0244,
+    "n": 491,
+    "failures": 12
+   },
+   {
+    "low": 9.6,
+    "high": 9.8,
+    "rate": 0.0153,
+    "n": 590,
+    "failures": 9
+   },
+   {
+    "low": 9.8,
+    "high": 10.4,
+    "rate": 0.025,
+    "n": 600,
+    "failures": 15
+   },
+   {
+    "low": 10.4,
+    "high": 10.8,
+    "rate": 0.0184,
+    "n": 597,
+    "failures": 11
+   },
+   {
+    "low": 10.8,
+    "high": 11.1,
+    "rate": 0.0285,
+    "n": 562,
+    "failures": 16
+   },
+   {
+    "low": 11.1,
+    "high": 11.3,
+    "rate": 0.0259,
+    "n": 696,
+    "failures": 18
+   },
+   {
+    "low": 11.3,
+    "high": 12.1,
+    "rate": 0.0183,
+    "n": 493,
+    "failures": 9
+   }
+  ],
+  "power_w": [
+   {
+    "low": 1264.05,
+    "high": 4919.797,
+    "rate": 0.0367,
+    "n": 600,
+    "failures": 22
+   },
+   {
+    "low": 4919.797,
+    "high": 5371.353,
+    "rate": 0.005,
+    "n": 600,
+    "failures": 3
+   },
+   {
+    "low": 5371.353,
+    "high": 5705.252,
+    "rate": 0.0033,
+    "n": 600,
+    "failures": 2
+   },
+   {
+    "low": 5705.252,
+    "high": 5999.6,
+    "rate": 0.0117,
+    "n": 600,
+    "failures": 7
+   },
+   {
+    "low": 5999.6,
+    "high": 6272.656,
+    "rate": 0.015,
+    "n": 600,
+    "failures": 9
+   },
+   {
+    "low": 6272.656,
+    "high": 6556.253,
+    "rate": 0.005,
+    "n": 601,
+    "failures": 3
+   },
+   {
+    "low": 6556.253,
+    "high": 6850.704,
+    "rate": 0.0217,
+    "n": 599,
+    "failures": 13
+   },
+   {
+    "low": 6850.704,
+    "high": 7183.58,
+    "rate": 0.0333,
+    "n": 600,
+    "failures": 20
+   },
+   {
+    "low": 7183.58,
+    "high": 7646.517,
+    "rate": 0.045,
+    "n": 600,
+    "failures": 27
+   },
+   {
+    "low": 7646.517,
+    "high": 10233.152,
+    "rate": 0.1633,
+    "n": 600,
+    "failures": 98
+   }
+  ],
+  "strain_nm_min": [
+   {
+    "low": -0.001,
+    "high": 707.16,
+    "rate": 0.025,
+    "n": 600,
+    "failures": 15
+   },
+   {
+    "low": 707.16,
+    "high": 1540.52,
+    "rate": 0.0317,
+    "n": 600,
+    "failures": 19
+   },
+   {
+    "low": 1540.52,
+    "high": 2372.46,
+    "rate": 0.01,
+    "n": 600,
+    "failures": 6
+   },
+   {
+    "low": 2372.46,
+    "high": 3198.24,
+    "rate": 0.0067,
+    "n": 600,
+    "failures": 4
+   },
+   {
+    "low": 3198.24,
+    "high": 4001.5,
+    "rate": 0.015,
+    "n": 600,
+    "failures": 9
+   },
+   {
+    "low": 4001.5,
+    "high": 4866.56,
+    "rate": 0.0183,
+    "n": 600,
+    "failures": 11
+   },
+   {
+    "low": 4866.56,
+    "high": 5752.9,
+    "rate": 0.02,
+    "n": 600,
+    "failures": 12
+   },
+   {
+    "low": 5752.9,
+    "high": 6823.84,
+    "rate": 0.03,
+    "n": 600,
+    "failures": 18
+   },
+   {
+    "low": 6823.84,
+    "high": 8272.12,
+    "rate": 0.0333,
+    "n": 600,
+    "failures": 20
+   },
+   {
+    "low": 8272.12,
+    "high": 14999.5,
+    "rate": 0.15,
+    "n": 600,
+    "failures": 90
+   }
+  ]
+ },
+ "failure_mode_regions": {
+  "twf": {
+   "x": "tool_wear_min",
+   "y": "torque_nm",
+   "n": 29,
+   "x_range": [
+    204.0,
+    253.0
+   ],
+   "y_range": [
+    18.9,
+    62.4
+   ]
+  },
+  "hdf": {
+   "x": "rotational_speed_rpm",
+   "y": "temp_diff_k",
+   "n": 71,
+   "x_range": [
+    1212.0,
+    1379.0
+   ],
+   "y_range": [
+    7.6,
+    8.6
+   ]
+  },
+  "pwf": {
+   "x": "rotational_speed_rpm",
+   "y": "torque_nm",
+   "n": 54,
+   "x_range": [
+    1200.0,
+    2874.0
+   ],
+   "y_range": [
+    4.2,
+    76.6
+   ]
+  },
+  "osf": {
+   "x": "tool_wear_min",
+   "y": "torque_nm",
+   "n": 58,
+   "x_range": [
+    177.0,
+    253.0
+   ],
+   "y_range": [
+    48.9,
+    74.5
+   ]
+  }
+ },
+ "failure_rate_by_type": {
+  "L": {
+   "rate": 0.0384,
+   "n": 3591,
+   "failures": 138,
+   "ci_low": 0.0326,
+   "ci_high": 0.0452
+  },
+  "M": {
+   "rate": 0.0298,
+   "n": 1811,
+   "failures": 54,
+   "ci_low": 0.0229,
+   "ci_high": 0.0387
+  },
+  "H": {
+   "rate": 0.0201,
+   "n": 598,
+   "failures": 12,
+   "ci_low": 0.0115,
+   "ci_high": 0.0347
+  }
+ },
+ "correlation": {
+  "columns": [
+   "air_temp_k",
+   "process_temp_k",
+   "rotational_speed_rpm",
+   "torque_nm",
+   "tool_wear_min",
+   "temp_diff_k",
+   "power_w",
+   "strain_nm_min",
+   "machine_failure"
+  ],
+  "matrix": [
+   [
+    1.0,
+    0.866,
+    0.022,
+    -0.018,
+    0.023,
+    -0.709,
+    -0.015,
+    0.014,
+    0.08
+   ],
+   [
+    0.866,
+    1.0,
+    0.029,
+    -0.027,
+    0.026,
+    -0.276,
+    -0.024,
+    0.014,
+    0.037
+   ],
+   [
+    0.022,
+    0.029,
+    1.0,
+    -0.917,
+    0.016,
+    -0.004,
+    -0.82,
+    -0.296,
+    -0.173
+   ],
+   [
+    -0.018,
+    -0.027,
+    -0.917,
+    1.0,
+    -0.02,
+    -0.002,
+    0.978,
+    0.316,
+    0.174
+   ],
+   [
+    0.023,
+    0.026,
+    0.016,
+    -0.02,
+    1.0,
+    -0.008,
+    -0.02,
+    0.919,
+    0.096
+   ],
+   [
+    -0.709,
+    -0.276,
+    -0.004,
+    -0.002,
+    -0.008,
+    1.0,
+    -0.004,
+    -0.008,
+    -0.103
+   ],
+   [
+    -0.015,
+    -0.024,
+    -0.82,
+    0.978,
+    -0.02,
+    -0.004,
+    1.0,
+    0.31,
+    0.158
+   ],
+   [
+    0.014,
+    0.014,
+    -0.296,
+    0.316,
+    0.919,
+    -0.008,
+    0.31,
+    1.0,
+    0.132
+   ],
+   [
+    0.08,
+    0.037,
+    -0.173,
+    0.174,
+    0.096,
+    -0.103,
+    0.158,
+    0.132,
+    1.0
+   ]
+  ]
+ },
+ "outlier_check": {
+  "rotational_speed_rpm": {
+   "n_outliers": 255,
+   "failure_rate_outliers": 0.0745,
+   "failure_rate_rest": 0.0322,
+   "power_w_range_outliers": [
+    1264.1,
+    5074.6
+   ]
+  },
+  "torque_nm": {
+   "n_outliers": 34,
+   "failure_rate_outliers": 0.9706,
+   "failure_rate_rest": 0.0287,
+   "power_w_range_outliers": [
+    1264.1,
+    10233.2
+   ]
+  },
+  "rpm_torque_spearman": -0.917
+ },
+ "scatter_sample": [
+  {
+   "rpm": 1356,
+   "torque": 45.7,
+   "wear": 149,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1478,
+   "torque": 38.1,
+   "wear": 45,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1657,
+   "torque": 31.9,
+   "wear": 37,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1568,
+   "torque": 39.2,
+   "wear": 112,
+   "temp_diff": 8.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1469,
+   "torque": 44.1,
+   "wear": 150,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1375,
+   "torque": 46.6,
+   "wear": 188,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1621,
+   "torque": 32.5,
+   "wear": 169,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1591,
+   "torque": 33.7,
+   "wear": 32,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1455,
+   "torque": 39.8,
+   "wear": 118,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1390,
+   "torque": 47.4,
+   "wear": 187,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1543,
+   "torque": 38.1,
+   "wear": 209,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1661,
+   "torque": 38.2,
+   "wear": 82,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1699,
+   "torque": 30.1,
+   "wear": 40,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1887,
+   "torque": 21.7,
+   "wear": 56,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1651,
+   "torque": 31.5,
+   "wear": 197,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1517,
+   "torque": 44.3,
+   "wear": 4,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1370,
+   "torque": 44.8,
+   "wear": 20,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1334,
+   "torque": 52.3,
+   "wear": 68,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1607,
+   "torque": 33.5,
+   "wear": 5,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1556,
+   "torque": 37.7,
+   "wear": 124,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1364,
+   "torque": 51.8,
+   "wear": 104,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1655,
+   "torque": 34.1,
+   "wear": 21,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1596,
+   "torque": 37.1,
+   "wear": 43,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1431,
+   "torque": 49.0,
+   "wear": 162,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1531,
+   "torque": 38.5,
+   "wear": 0,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1541,
+   "torque": 32.6,
+   "wear": 33,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1931,
+   "torque": 22.0,
+   "wear": 24,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1534,
+   "torque": 37.5,
+   "wear": 39,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1476,
+   "torque": 45.3,
+   "wear": 166,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1457,
+   "torque": 47.8,
+   "wear": 7,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1412,
+   "torque": 48.9,
+   "wear": 56,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1409,
+   "torque": 41.9,
+   "wear": 98,
+   "temp_diff": 8.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1528,
+   "torque": 37.1,
+   "wear": 99,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1590,
+   "torque": 35.9,
+   "wear": 22,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1603,
+   "torque": 37.6,
+   "wear": 69,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1415,
+   "torque": 49.6,
+   "wear": 21,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1539,
+   "torque": 36.1,
+   "wear": 76,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1388,
+   "torque": 48.2,
+   "wear": 203,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1863,
+   "torque": 22.5,
+   "wear": 79,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1717,
+   "torque": 26.9,
+   "wear": 17,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1704,
+   "torque": 29.2,
+   "wear": 42,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1624,
+   "torque": 29.8,
+   "wear": 160,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1423,
+   "torque": 38.6,
+   "wear": 199,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1447,
+   "torque": 38.1,
+   "wear": 146,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1535,
+   "torque": 43.9,
+   "wear": 154,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1349,
+   "torque": 54.5,
+   "wear": 19,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1451,
+   "torque": 40.6,
+   "wear": 0,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1356,
+   "torque": 45.8,
+   "wear": 126,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1650,
+   "torque": 31.9,
+   "wear": 126,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1547,
+   "torque": 36.8,
+   "wear": 74,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1530,
+   "torque": 36.4,
+   "wear": 27,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1396,
+   "torque": 44.5,
+   "wear": 117,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1558,
+   "torque": 32.6,
+   "wear": 0,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1558,
+   "torque": 45.3,
+   "wear": 193,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1325,
+   "torque": 51.0,
+   "wear": 171,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1508,
+   "torque": 47.9,
+   "wear": 25,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1432,
+   "torque": 42.6,
+   "wear": 17,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1911,
+   "torque": 21.5,
+   "wear": 164,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1456,
+   "torque": 51.1,
+   "wear": 193,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1321,
+   "torque": 51.9,
+   "wear": 114,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1578,
+   "torque": 35.6,
+   "wear": 55,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1365,
+   "torque": 52.4,
+   "wear": 76,
+   "temp_diff": 11.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1415,
+   "torque": 49.2,
+   "wear": 8,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1410,
+   "torque": 51.4,
+   "wear": 189,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1449,
+   "torque": 44.1,
+   "wear": 112,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1574,
+   "torque": 34.1,
+   "wear": 215,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1500,
+   "torque": 40.3,
+   "wear": 207,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1564,
+   "torque": 35.0,
+   "wear": 122,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1442,
+   "torque": 41.1,
+   "wear": 89,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1676,
+   "torque": 35.2,
+   "wear": 97,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1586,
+   "torque": 36.6,
+   "wear": 215,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1567,
+   "torque": 36.1,
+   "wear": 124,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1675,
+   "torque": 29.6,
+   "wear": 128,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1482,
+   "torque": 44.4,
+   "wear": 73,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1509,
+   "torque": 36.2,
+   "wear": 57,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1485,
+   "torque": 42.9,
+   "wear": 38,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1577,
+   "torque": 34.7,
+   "wear": 5,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1395,
+   "torque": 46.2,
+   "wear": 122,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1680,
+   "torque": 33.8,
+   "wear": 140,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1569,
+   "torque": 31.2,
+   "wear": 176,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1528,
+   "torque": 33.8,
+   "wear": 22,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1384,
+   "torque": 57.1,
+   "wear": 68,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1461,
+   "torque": 43.7,
+   "wear": 142,
+   "temp_diff": 11.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1394,
+   "torque": 42.8,
+   "wear": 168,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1997,
+   "torque": 20.7,
+   "wear": 5,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1474,
+   "torque": 41.2,
+   "wear": 156,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1544,
+   "torque": 40.8,
+   "wear": 37,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1844,
+   "torque": 23.8,
+   "wear": 44,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1800,
+   "torque": 24.8,
+   "wear": 44,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1490,
+   "torque": 35.0,
+   "wear": 29,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1570,
+   "torque": 30.9,
+   "wear": 226,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1586,
+   "torque": 31.4,
+   "wear": 180,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1397,
+   "torque": 51.2,
+   "wear": 173,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1622,
+   "torque": 33.3,
+   "wear": 121,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1892,
+   "torque": 21.8,
+   "wear": 177,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1323,
+   "torque": 51.7,
+   "wear": 88,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1365,
+   "torque": 50.9,
+   "wear": 183,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1520,
+   "torque": 43.0,
+   "wear": 88,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1576,
+   "torque": 39.4,
+   "wear": 183,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1434,
+   "torque": 44.9,
+   "wear": 15,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1440,
+   "torque": 47.0,
+   "wear": 21,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1491,
+   "torque": 42.0,
+   "wear": 29,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1343,
+   "torque": 44.5,
+   "wear": 15,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1517,
+   "torque": 40.2,
+   "wear": 45,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1492,
+   "torque": 46.3,
+   "wear": 187,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1568,
+   "torque": 36.9,
+   "wear": 28,
+   "temp_diff": 7.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1913,
+   "torque": 22.5,
+   "wear": 157,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1360,
+   "torque": 48.6,
+   "wear": 77,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1375,
+   "torque": 46.8,
+   "wear": 86,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1345,
+   "torque": 47.6,
+   "wear": 67,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1605,
+   "torque": 37.6,
+   "wear": 171,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1526,
+   "torque": 42.1,
+   "wear": 57,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1536,
+   "torque": 34.2,
+   "wear": 45,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1531,
+   "torque": 39.4,
+   "wear": 159,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1481,
+   "torque": 41.9,
+   "wear": 106,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1461,
+   "torque": 50.1,
+   "wear": 31,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1412,
+   "torque": 46.5,
+   "wear": 89,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 2077,
+   "torque": 19.1,
+   "wear": 80,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1431,
+   "torque": 52.3,
+   "wear": 38,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1697,
+   "torque": 27.4,
+   "wear": 121,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1666,
+   "torque": 32.7,
+   "wear": 19,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1652,
+   "torque": 27.2,
+   "wear": 52,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1540,
+   "torque": 35.8,
+   "wear": 5,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1479,
+   "torque": 52.3,
+   "wear": 9,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1397,
+   "torque": 46.4,
+   "wear": 36,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1366,
+   "torque": 52.6,
+   "wear": 205,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1512,
+   "torque": 37.5,
+   "wear": 27,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1394,
+   "torque": 55.4,
+   "wear": 57,
+   "temp_diff": 7.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1711,
+   "torque": 28.5,
+   "wear": 140,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1445,
+   "torque": 41.5,
+   "wear": 66,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1369,
+   "torque": 46.2,
+   "wear": 146,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1587,
+   "torque": 35.8,
+   "wear": 148,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1532,
+   "torque": 39.8,
+   "wear": 115,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1662,
+   "torque": 31.0,
+   "wear": 37,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1772,
+   "torque": 27.3,
+   "wear": 69,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1364,
+   "torque": 49.5,
+   "wear": 0,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1547,
+   "torque": 35.8,
+   "wear": 81,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1417,
+   "torque": 46.9,
+   "wear": 35,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1635,
+   "torque": 32.5,
+   "wear": 110,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1505,
+   "torque": 37.3,
+   "wear": 100,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1488,
+   "torque": 39.4,
+   "wear": 159,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1458,
+   "torque": 40.1,
+   "wear": 111,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1334,
+   "torque": 49.8,
+   "wear": 186,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1638,
+   "torque": 36.2,
+   "wear": 84,
+   "temp_diff": 7.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1414,
+   "torque": 45.4,
+   "wear": 138,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1524,
+   "torque": 37.0,
+   "wear": 49,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1759,
+   "torque": 28.6,
+   "wear": 176,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1348,
+   "torque": 58.2,
+   "wear": 163,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1565,
+   "torque": 39.5,
+   "wear": 124,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1444,
+   "torque": 48.2,
+   "wear": 24,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1455,
+   "torque": 46.1,
+   "wear": 76,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1443,
+   "torque": 51.8,
+   "wear": 178,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1414,
+   "torque": 49.3,
+   "wear": 106,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1520,
+   "torque": 39.2,
+   "wear": 43,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1471,
+   "torque": 41.7,
+   "wear": 41,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1758,
+   "torque": 25.7,
+   "wear": 68,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1446,
+   "torque": 47.3,
+   "wear": 66,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1421,
+   "torque": 52.0,
+   "wear": 95,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1378,
+   "torque": 53.5,
+   "wear": 65,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1596,
+   "torque": 33.0,
+   "wear": 15,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1832,
+   "torque": 22.9,
+   "wear": 178,
+   "temp_diff": 8.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1717,
+   "torque": 27.1,
+   "wear": 7,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1457,
+   "torque": 41.5,
+   "wear": 201,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1541,
+   "torque": 33.7,
+   "wear": 165,
+   "temp_diff": 12.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1493,
+   "torque": 34.9,
+   "wear": 119,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1722,
+   "torque": 30.4,
+   "wear": 178,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1526,
+   "torque": 41.8,
+   "wear": 160,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1462,
+   "torque": 55.0,
+   "wear": 163,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1550,
+   "torque": 36.9,
+   "wear": 194,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1289,
+   "torque": 54.9,
+   "wear": 128,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1589,
+   "torque": 36.7,
+   "wear": 118,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1521,
+   "torque": 37.5,
+   "wear": 94,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1372,
+   "torque": 57.7,
+   "wear": 33,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1564,
+   "torque": 40.2,
+   "wear": 150,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1667,
+   "torque": 29.0,
+   "wear": 199,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1716,
+   "torque": 30.7,
+   "wear": 119,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1381,
+   "torque": 42.5,
+   "wear": 54,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1499,
+   "torque": 43.5,
+   "wear": 84,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1455,
+   "torque": 40.6,
+   "wear": 82,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1573,
+   "torque": 34.6,
+   "wear": 14,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1283,
+   "torque": 52.4,
+   "wear": 112,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1441,
+   "torque": 43.2,
+   "wear": 132,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1681,
+   "torque": 28.3,
+   "wear": 116,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1415,
+   "torque": 31.8,
+   "wear": 192,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1348,
+   "torque": 58.0,
+   "wear": 162,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1451,
+   "torque": 47.1,
+   "wear": 196,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1415,
+   "torque": 48.4,
+   "wear": 185,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1569,
+   "torque": 41.0,
+   "wear": 153,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1439,
+   "torque": 46.4,
+   "wear": 114,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1461,
+   "torque": 46.3,
+   "wear": 121,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1592,
+   "torque": 35.8,
+   "wear": 57,
+   "temp_diff": 12.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1571,
+   "torque": 37.4,
+   "wear": 50,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1446,
+   "torque": 48.1,
+   "wear": 88,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1774,
+   "torque": 29.6,
+   "wear": 186,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1648,
+   "torque": 28.4,
+   "wear": 188,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1725,
+   "torque": 29.0,
+   "wear": 209,
+   "temp_diff": 7.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1367,
+   "torque": 57.8,
+   "wear": 92,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1470,
+   "torque": 45.8,
+   "wear": 85,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1480,
+   "torque": 45.7,
+   "wear": 200,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1704,
+   "torque": 29.5,
+   "wear": 0,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1459,
+   "torque": 48.2,
+   "wear": 17,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1281,
+   "torque": 57.0,
+   "wear": 144,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1512,
+   "torque": 36.2,
+   "wear": 172,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1669,
+   "torque": 29.2,
+   "wear": 200,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1426,
+   "torque": 42.6,
+   "wear": 23,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1618,
+   "torque": 37.8,
+   "wear": 59,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1362,
+   "torque": 49.6,
+   "wear": 158,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1390,
+   "torque": 48.1,
+   "wear": 40,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1807,
+   "torque": 24.2,
+   "wear": 77,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1462,
+   "torque": 46.0,
+   "wear": 166,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1550,
+   "torque": 38.2,
+   "wear": 185,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1431,
+   "torque": 47.7,
+   "wear": 39,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1809,
+   "torque": 24.3,
+   "wear": 97,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1362,
+   "torque": 51.6,
+   "wear": 212,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1255,
+   "torque": 59.0,
+   "wear": 138,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1479,
+   "torque": 39.4,
+   "wear": 18,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1790,
+   "torque": 27.2,
+   "wear": 193,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1909,
+   "torque": 23.2,
+   "wear": 25,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1507,
+   "torque": 41.2,
+   "wear": 149,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1510,
+   "torque": 40.8,
+   "wear": 177,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1555,
+   "torque": 35.8,
+   "wear": 190,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1593,
+   "torque": 36.1,
+   "wear": 36,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1833,
+   "torque": 25.2,
+   "wear": 117,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1406,
+   "torque": 47.5,
+   "wear": 14,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1504,
+   "torque": 38.7,
+   "wear": 65,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1665,
+   "torque": 32.5,
+   "wear": 93,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1815,
+   "torque": 27.8,
+   "wear": 66,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1582,
+   "torque": 37.2,
+   "wear": 68,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1343,
+   "torque": 49.2,
+   "wear": 25,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1586,
+   "torque": 35.5,
+   "wear": 0,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1426,
+   "torque": 46.6,
+   "wear": 102,
+   "temp_diff": 7.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1662,
+   "torque": 28.3,
+   "wear": 15,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1675,
+   "torque": 31.3,
+   "wear": 129,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1493,
+   "torque": 36.0,
+   "wear": 161,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1347,
+   "torque": 47.9,
+   "wear": 29,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1487,
+   "torque": 41.2,
+   "wear": 22,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1398,
+   "torque": 52.7,
+   "wear": 31,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1440,
+   "torque": 42.8,
+   "wear": 104,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1436,
+   "torque": 44.8,
+   "wear": 2,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1847,
+   "torque": 24.7,
+   "wear": 212,
+   "temp_diff": 8.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1480,
+   "torque": 40.9,
+   "wear": 2,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1831,
+   "torque": 23.4,
+   "wear": 133,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1654,
+   "torque": 29.6,
+   "wear": 188,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1498,
+   "torque": 44.6,
+   "wear": 101,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1456,
+   "torque": 47.2,
+   "wear": 54,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1709,
+   "torque": 31.8,
+   "wear": 100,
+   "temp_diff": 7.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1717,
+   "torque": 28.7,
+   "wear": 29,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1531,
+   "torque": 35.6,
+   "wear": 16,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1605,
+   "torque": 31.3,
+   "wear": 128,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1429,
+   "torque": 45.8,
+   "wear": 113,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1368,
+   "torque": 51.8,
+   "wear": 5,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1579,
+   "torque": 36.4,
+   "wear": 0,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1460,
+   "torque": 53.8,
+   "wear": 41,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1475,
+   "torque": 42.0,
+   "wear": 147,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1466,
+   "torque": 53.2,
+   "wear": 172,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1413,
+   "torque": 43.0,
+   "wear": 137,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1861,
+   "torque": 23.3,
+   "wear": 73,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1437,
+   "torque": 38.0,
+   "wear": 93,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1384,
+   "torque": 42.5,
+   "wear": 185,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1489,
+   "torque": 43.0,
+   "wear": 151,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1325,
+   "torque": 48.4,
+   "wear": 220,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 2151,
+   "torque": 17.5,
+   "wear": 173,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1525,
+   "torque": 36.5,
+   "wear": 71,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1488,
+   "torque": 42.8,
+   "wear": 54,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1421,
+   "torque": 44.6,
+   "wear": 17,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1495,
+   "torque": 38.7,
+   "wear": 88,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1370,
+   "torque": 52.4,
+   "wear": 113,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1540,
+   "torque": 38.1,
+   "wear": 182,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1510,
+   "torque": 47.6,
+   "wear": 16,
+   "temp_diff": 7.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1630,
+   "torque": 29.8,
+   "wear": 206,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1470,
+   "torque": 40.9,
+   "wear": 125,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1353,
+   "torque": 51.0,
+   "wear": 172,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1467,
+   "torque": 44.5,
+   "wear": 80,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1610,
+   "torque": 33.3,
+   "wear": 233,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1660,
+   "torque": 29.3,
+   "wear": 72,
+   "temp_diff": 8.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1624,
+   "torque": 30.9,
+   "wear": 186,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1425,
+   "torque": 52.7,
+   "wear": 154,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1634,
+   "torque": 27.9,
+   "wear": 12,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1624,
+   "torque": 34.5,
+   "wear": 216,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1542,
+   "torque": 48.4,
+   "wear": 42,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1336,
+   "torque": 53.7,
+   "wear": 61,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1300,
+   "torque": 58.3,
+   "wear": 92,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1642,
+   "torque": 30.4,
+   "wear": 58,
+   "temp_diff": 11.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1773,
+   "torque": 27.1,
+   "wear": 30,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1453,
+   "torque": 43.2,
+   "wear": 153,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1774,
+   "torque": 28.9,
+   "wear": 166,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1688,
+   "torque": 32.0,
+   "wear": 155,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1522,
+   "torque": 45.7,
+   "wear": 153,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1465,
+   "torque": 41.1,
+   "wear": 30,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1896,
+   "torque": 24.4,
+   "wear": 47,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1425,
+   "torque": 53.9,
+   "wear": 135,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1418,
+   "torque": 44.7,
+   "wear": 46,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1228,
+   "torque": 66.4,
+   "wear": 109,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1630,
+   "torque": 29.5,
+   "wear": 51,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1717,
+   "torque": 31.3,
+   "wear": 61,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1390,
+   "torque": 49.0,
+   "wear": 194,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1353,
+   "torque": 46.2,
+   "wear": 173,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1379,
+   "torque": 43.2,
+   "wear": 0,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1386,
+   "torque": 48.1,
+   "wear": 119,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1769,
+   "torque": 26.1,
+   "wear": 38,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1527,
+   "torque": 42.2,
+   "wear": 144,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1510,
+   "torque": 46.9,
+   "wear": 152,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1392,
+   "torque": 41.5,
+   "wear": 108,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1477,
+   "torque": 41.5,
+   "wear": 100,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1532,
+   "torque": 39.8,
+   "wear": 92,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1336,
+   "torque": 50.3,
+   "wear": 44,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1677,
+   "torque": 29.1,
+   "wear": 188,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1436,
+   "torque": 47.7,
+   "wear": 191,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1515,
+   "torque": 36.8,
+   "wear": 162,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1749,
+   "torque": 28.3,
+   "wear": 83,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1410,
+   "torque": 51.6,
+   "wear": 47,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1524,
+   "torque": 39.8,
+   "wear": 120,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1838,
+   "torque": 23.2,
+   "wear": 215,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1341,
+   "torque": 50.9,
+   "wear": 137,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1461,
+   "torque": 46.7,
+   "wear": 105,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1646,
+   "torque": 34.5,
+   "wear": 63,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1551,
+   "torque": 37.7,
+   "wear": 64,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1608,
+   "torque": 32.9,
+   "wear": 119,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1614,
+   "torque": 33.5,
+   "wear": 191,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1405,
+   "torque": 48.8,
+   "wear": 78,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1616,
+   "torque": 35.1,
+   "wear": 142,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1550,
+   "torque": 40.2,
+   "wear": 96,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1581,
+   "torque": 37.5,
+   "wear": 75,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1452,
+   "torque": 41.9,
+   "wear": 106,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1623,
+   "torque": 33.4,
+   "wear": 74,
+   "temp_diff": 11.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1471,
+   "torque": 46.0,
+   "wear": 42,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1495,
+   "torque": 38.8,
+   "wear": 186,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1434,
+   "torque": 48.4,
+   "wear": 153,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1451,
+   "torque": 53.6,
+   "wear": 194,
+   "temp_diff": 7.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1987,
+   "torque": 19.9,
+   "wear": 200,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1499,
+   "torque": 38.0,
+   "wear": 111,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1452,
+   "torque": 44.3,
+   "wear": 167,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1408,
+   "torque": 48.7,
+   "wear": 85,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1338,
+   "torque": 48.5,
+   "wear": 158,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1431,
+   "torque": 43.7,
+   "wear": 46,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1423,
+   "torque": 44.0,
+   "wear": 222,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1282,
+   "torque": 66.1,
+   "wear": 40,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1470,
+   "torque": 40.6,
+   "wear": 86,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1548,
+   "torque": 33.5,
+   "wear": 35,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1441,
+   "torque": 36.2,
+   "wear": 169,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1685,
+   "torque": 32.3,
+   "wear": 167,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1367,
+   "torque": 47.3,
+   "wear": 47,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1496,
+   "torque": 36.4,
+   "wear": 126,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1427,
+   "torque": 47.0,
+   "wear": 65,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1386,
+   "torque": 57.8,
+   "wear": 172,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1377,
+   "torque": 49.9,
+   "wear": 124,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1442,
+   "torque": 47.3,
+   "wear": 65,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1425,
+   "torque": 45.1,
+   "wear": 7,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1405,
+   "torque": 53.8,
+   "wear": 18,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1448,
+   "torque": 48.6,
+   "wear": 44,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1664,
+   "torque": 28.1,
+   "wear": 67,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1560,
+   "torque": 31.8,
+   "wear": 172,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1493,
+   "torque": 38.4,
+   "wear": 146,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1477,
+   "torque": 38.1,
+   "wear": 13,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1447,
+   "torque": 47.1,
+   "wear": 185,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1573,
+   "torque": 34.5,
+   "wear": 205,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1461,
+   "torque": 44.3,
+   "wear": 158,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1586,
+   "torque": 32.2,
+   "wear": 64,
+   "temp_diff": 7.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1499,
+   "torque": 34.6,
+   "wear": 207,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1515,
+   "torque": 35.1,
+   "wear": 213,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1328,
+   "torque": 49.2,
+   "wear": 11,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1447,
+   "torque": 46.6,
+   "wear": 169,
+   "temp_diff": 8.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1487,
+   "torque": 42.2,
+   "wear": 198,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1781,
+   "torque": 28.5,
+   "wear": 196,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1574,
+   "torque": 31.4,
+   "wear": 27,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1722,
+   "torque": 24.7,
+   "wear": 64,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1842,
+   "torque": 24.5,
+   "wear": 67,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1778,
+   "torque": 28.2,
+   "wear": 161,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1403,
+   "torque": 40.6,
+   "wear": 207,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1604,
+   "torque": 29.5,
+   "wear": 14,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1452,
+   "torque": 47.3,
+   "wear": 25,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1366,
+   "torque": 55.6,
+   "wear": 57,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1685,
+   "torque": 31.8,
+   "wear": 203,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1504,
+   "torque": 37.8,
+   "wear": 112,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1522,
+   "torque": 35.8,
+   "wear": 133,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1482,
+   "torque": 39.3,
+   "wear": 112,
+   "temp_diff": 11.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1446,
+   "torque": 49.9,
+   "wear": 133,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1372,
+   "torque": 60.4,
+   "wear": 149,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1360,
+   "torque": 53.0,
+   "wear": 36,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1751,
+   "torque": 30.5,
+   "wear": 90,
+   "temp_diff": 7.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1487,
+   "torque": 37.5,
+   "wear": 83,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1462,
+   "torque": 51.4,
+   "wear": 48,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1519,
+   "torque": 44.6,
+   "wear": 69,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1454,
+   "torque": 39.7,
+   "wear": 67,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1534,
+   "torque": 39.7,
+   "wear": 115,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1665,
+   "torque": 28.9,
+   "wear": 17,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1485,
+   "torque": 44.7,
+   "wear": 78,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1522,
+   "torque": 35.2,
+   "wear": 48,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1400,
+   "torque": 44.3,
+   "wear": 47,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1560,
+   "torque": 47.7,
+   "wear": 26,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1494,
+   "torque": 40.6,
+   "wear": 67,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1634,
+   "torque": 30.0,
+   "wear": 53,
+   "temp_diff": 11.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1484,
+   "torque": 53.2,
+   "wear": 158,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1917,
+   "torque": 24.1,
+   "wear": 54,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1757,
+   "torque": 27.5,
+   "wear": 118,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1802,
+   "torque": 26.0,
+   "wear": 197,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 2231,
+   "torque": 17.4,
+   "wear": 151,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1355,
+   "torque": 50.1,
+   "wear": 104,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1506,
+   "torque": 37.0,
+   "wear": 54,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1511,
+   "torque": 45.0,
+   "wear": 204,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1355,
+   "torque": 51.4,
+   "wear": 76,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1470,
+   "torque": 48.7,
+   "wear": 21,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1769,
+   "torque": 26.5,
+   "wear": 63,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1622,
+   "torque": 35.0,
+   "wear": 68,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1236,
+   "torque": 57.5,
+   "wear": 12,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1356,
+   "torque": 54.9,
+   "wear": 72,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1740,
+   "torque": 30.8,
+   "wear": 182,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1603,
+   "torque": 31.8,
+   "wear": 190,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1401,
+   "torque": 45.9,
+   "wear": 49,
+   "temp_diff": 12.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1504,
+   "torque": 38.0,
+   "wear": 20,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1432,
+   "torque": 45.4,
+   "wear": 137,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1427,
+   "torque": 45.6,
+   "wear": 25,
+   "temp_diff": 8.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1529,
+   "torque": 36.6,
+   "wear": 105,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1748,
+   "torque": 25.3,
+   "wear": 144,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1418,
+   "torque": 45.9,
+   "wear": 53,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1482,
+   "torque": 37.9,
+   "wear": 17,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1242,
+   "torque": 62.0,
+   "wear": 98,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1659,
+   "torque": 29.8,
+   "wear": 6,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1463,
+   "torque": 35.0,
+   "wear": 183,
+   "temp_diff": 11.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1431,
+   "torque": 49.4,
+   "wear": 37,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1494,
+   "torque": 42.2,
+   "wear": 35,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1465,
+   "torque": 55.9,
+   "wear": 153,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1459,
+   "torque": 49.7,
+   "wear": 201,
+   "temp_diff": 11.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1597,
+   "torque": 32.4,
+   "wear": 69,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1523,
+   "torque": 39.7,
+   "wear": 239,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1420,
+   "torque": 45.9,
+   "wear": 144,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1300,
+   "torque": 57.2,
+   "wear": 174,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1807,
+   "torque": 26.4,
+   "wear": 169,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 2004,
+   "torque": 19.6,
+   "wear": 12,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1388,
+   "torque": 51.1,
+   "wear": 160,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1471,
+   "torque": 52.3,
+   "wear": 152,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1472,
+   "torque": 41.3,
+   "wear": 67,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1383,
+   "torque": 46.2,
+   "wear": 188,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1431,
+   "torque": 45.2,
+   "wear": 90,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1353,
+   "torque": 59.4,
+   "wear": 26,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1430,
+   "torque": 43.4,
+   "wear": 24,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1372,
+   "torque": 54.2,
+   "wear": 49,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1696,
+   "torque": 30.2,
+   "wear": 214,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1438,
+   "torque": 46.2,
+   "wear": 16,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1452,
+   "torque": 47.4,
+   "wear": 77,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1515,
+   "torque": 36.8,
+   "wear": 27,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1542,
+   "torque": 35.1,
+   "wear": 204,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1868,
+   "torque": 23.8,
+   "wear": 118,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1889,
+   "torque": 21.5,
+   "wear": 92,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1834,
+   "torque": 23.8,
+   "wear": 195,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1800,
+   "torque": 27.6,
+   "wear": 208,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1603,
+   "torque": 34.1,
+   "wear": 17,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1567,
+   "torque": 34.7,
+   "wear": 74,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1655,
+   "torque": 30.2,
+   "wear": 146,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1376,
+   "torque": 49.1,
+   "wear": 0,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1335,
+   "torque": 57.9,
+   "wear": 113,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1555,
+   "torque": 38.2,
+   "wear": 175,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1490,
+   "torque": 42.7,
+   "wear": 171,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1466,
+   "torque": 45.2,
+   "wear": 188,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1697,
+   "torque": 29.1,
+   "wear": 179,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1304,
+   "torque": 50.5,
+   "wear": 153,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1341,
+   "torque": 55.7,
+   "wear": 30,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1335,
+   "torque": 57.8,
+   "wear": 96,
+   "temp_diff": 11.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1326,
+   "torque": 55.7,
+   "wear": 114,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1628,
+   "torque": 35.2,
+   "wear": 23,
+   "temp_diff": 8.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1371,
+   "torque": 57.4,
+   "wear": 52,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1838,
+   "torque": 27.3,
+   "wear": 99,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1493,
+   "torque": 38.4,
+   "wear": 132,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1421,
+   "torque": 44.4,
+   "wear": 94,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1730,
+   "torque": 27.5,
+   "wear": 209,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1339,
+   "torque": 62.3,
+   "wear": 156,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1361,
+   "torque": 56.9,
+   "wear": 81,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1454,
+   "torque": 41.5,
+   "wear": 57,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1405,
+   "torque": 43.7,
+   "wear": 2,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1423,
+   "torque": 42.9,
+   "wear": 124,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1517,
+   "torque": 38.4,
+   "wear": 185,
+   "temp_diff": 11.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1463,
+   "torque": 49.2,
+   "wear": 235,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1609,
+   "torque": 35.3,
+   "wear": 117,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1306,
+   "torque": 58.3,
+   "wear": 35,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1521,
+   "torque": 45.1,
+   "wear": 86,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1663,
+   "torque": 30.6,
+   "wear": 139,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1374,
+   "torque": 47.6,
+   "wear": 176,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1552,
+   "torque": 44.9,
+   "wear": 77,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1404,
+   "torque": 54.8,
+   "wear": 29,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1398,
+   "torque": 51.5,
+   "wear": 0,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1578,
+   "torque": 32.3,
+   "wear": 196,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1686,
+   "torque": 32.5,
+   "wear": 25,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1416,
+   "torque": 50.9,
+   "wear": 152,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1399,
+   "torque": 48.4,
+   "wear": 34,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1586,
+   "torque": 32.7,
+   "wear": 131,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1629,
+   "torque": 37.1,
+   "wear": 170,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1420,
+   "torque": 50.1,
+   "wear": 138,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1437,
+   "torque": 51.3,
+   "wear": 42,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1321,
+   "torque": 53.4,
+   "wear": 42,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1518,
+   "torque": 40.2,
+   "wear": 130,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1382,
+   "torque": 52.0,
+   "wear": 201,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1700,
+   "torque": 31.3,
+   "wear": 200,
+   "temp_diff": 11.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1500,
+   "torque": 41.7,
+   "wear": 125,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1625,
+   "torque": 37.1,
+   "wear": 131,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1456,
+   "torque": 51.2,
+   "wear": 160,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1406,
+   "torque": 41.9,
+   "wear": 48,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1486,
+   "torque": 37.1,
+   "wear": 186,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1749,
+   "torque": 28.1,
+   "wear": 179,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1598,
+   "torque": 32.7,
+   "wear": 94,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1414,
+   "torque": 42.5,
+   "wear": 69,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1499,
+   "torque": 45.1,
+   "wear": 185,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1396,
+   "torque": 38.2,
+   "wear": 117,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1689,
+   "torque": 30.6,
+   "wear": 110,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1496,
+   "torque": 36.3,
+   "wear": 161,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1413,
+   "torque": 47.9,
+   "wear": 97,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1452,
+   "torque": 43.9,
+   "wear": 182,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1459,
+   "torque": 39.7,
+   "wear": 69,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1863,
+   "torque": 25.7,
+   "wear": 85,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1628,
+   "torque": 30.2,
+   "wear": 80,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1537,
+   "torque": 37.1,
+   "wear": 187,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1492,
+   "torque": 43.7,
+   "wear": 222,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1424,
+   "torque": 43.4,
+   "wear": 16,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1619,
+   "torque": 31.3,
+   "wear": 38,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1836,
+   "torque": 22.8,
+   "wear": 18,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1442,
+   "torque": 46.5,
+   "wear": 11,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1810,
+   "torque": 26.0,
+   "wear": 195,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1393,
+   "torque": 54.2,
+   "wear": 80,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1811,
+   "torque": 25.1,
+   "wear": 136,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1514,
+   "torque": 38.7,
+   "wear": 66,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1533,
+   "torque": 35.2,
+   "wear": 92,
+   "temp_diff": 11.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1668,
+   "torque": 28.7,
+   "wear": 180,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1280,
+   "torque": 48.5,
+   "wear": 19,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1282,
+   "torque": 58.1,
+   "wear": 108,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1636,
+   "torque": 35.7,
+   "wear": 107,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 2102,
+   "torque": 17.8,
+   "wear": 91,
+   "temp_diff": 8.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1529,
+   "torque": 36.8,
+   "wear": 237,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1539,
+   "torque": 40.2,
+   "wear": 72,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1616,
+   "torque": 34.5,
+   "wear": 46,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1624,
+   "torque": 34.8,
+   "wear": 121,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1474,
+   "torque": 52.7,
+   "wear": 95,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1664,
+   "torque": 30.7,
+   "wear": 179,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1572,
+   "torque": 35.6,
+   "wear": 202,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1326,
+   "torque": 62.0,
+   "wear": 142,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1641,
+   "torque": 36.6,
+   "wear": 21,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1496,
+   "torque": 42.2,
+   "wear": 22,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1527,
+   "torque": 31.2,
+   "wear": 102,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1384,
+   "torque": 52.8,
+   "wear": 200,
+   "temp_diff": 11.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1528,
+   "torque": 46.3,
+   "wear": 203,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1686,
+   "torque": 27.7,
+   "wear": 176,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1555,
+   "torque": 32.6,
+   "wear": 197,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1494,
+   "torque": 42.6,
+   "wear": 96,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1482,
+   "torque": 43.8,
+   "wear": 41,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1673,
+   "torque": 30.1,
+   "wear": 210,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1837,
+   "torque": 28.4,
+   "wear": 34,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1513,
+   "torque": 43.8,
+   "wear": 188,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1869,
+   "torque": 22.9,
+   "wear": 18,
+   "temp_diff": 8.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1522,
+   "torque": 46.2,
+   "wear": 56,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1413,
+   "torque": 40.2,
+   "wear": 51,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1703,
+   "torque": 30.4,
+   "wear": 85,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1630,
+   "torque": 30.6,
+   "wear": 2,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1386,
+   "torque": 56.9,
+   "wear": 170,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1242,
+   "torque": 60.9,
+   "wear": 117,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1553,
+   "torque": 40.1,
+   "wear": 187,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1435,
+   "torque": 41.9,
+   "wear": 115,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 2381,
+   "torque": 14.2,
+   "wear": 164,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1455,
+   "torque": 46.8,
+   "wear": 162,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1522,
+   "torque": 41.7,
+   "wear": 115,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 2293,
+   "torque": 16.3,
+   "wear": 170,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1611,
+   "torque": 34.1,
+   "wear": 186,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1504,
+   "torque": 47.2,
+   "wear": 74,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1506,
+   "torque": 43.4,
+   "wear": 222,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1362,
+   "torque": 51.9,
+   "wear": 117,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1483,
+   "torque": 40.5,
+   "wear": 8,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1438,
+   "torque": 47.8,
+   "wear": 84,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1305,
+   "torque": 49.1,
+   "wear": 16,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1466,
+   "torque": 45.7,
+   "wear": 41,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1453,
+   "torque": 37.6,
+   "wear": 112,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1484,
+   "torque": 43.4,
+   "wear": 172,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1615,
+   "torque": 30.6,
+   "wear": 14,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1486,
+   "torque": 48.6,
+   "wear": 75,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1785,
+   "torque": 25.5,
+   "wear": 120,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1495,
+   "torque": 47.4,
+   "wear": 184,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1465,
+   "torque": 35.8,
+   "wear": 82,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1910,
+   "torque": 23.0,
+   "wear": 153,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1611,
+   "torque": 39.9,
+   "wear": 210,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1599,
+   "torque": 33.0,
+   "wear": 7,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1706,
+   "torque": 27.9,
+   "wear": 170,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1470,
+   "torque": 42.7,
+   "wear": 119,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1923,
+   "torque": 23.9,
+   "wear": 244,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1471,
+   "torque": 50.7,
+   "wear": 157,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1701,
+   "torque": 28.6,
+   "wear": 98,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1475,
+   "torque": 49.9,
+   "wear": 47,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1472,
+   "torque": 47.5,
+   "wear": 125,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1867,
+   "torque": 23.0,
+   "wear": 103,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1923,
+   "torque": 21.5,
+   "wear": 18,
+   "temp_diff": 7.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1425,
+   "torque": 47.4,
+   "wear": 90,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1465,
+   "torque": 44.1,
+   "wear": 109,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 2071,
+   "torque": 19.4,
+   "wear": 183,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1563,
+   "torque": 33.7,
+   "wear": 143,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1577,
+   "torque": 37.1,
+   "wear": 44,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1444,
+   "torque": 46.0,
+   "wear": 180,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1471,
+   "torque": 37.9,
+   "wear": 86,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1734,
+   "torque": 32.4,
+   "wear": 161,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1709,
+   "torque": 29.5,
+   "wear": 27,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1373,
+   "torque": 47.4,
+   "wear": 56,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1358,
+   "torque": 52.7,
+   "wear": 139,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1785,
+   "torque": 23.4,
+   "wear": 181,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1576,
+   "torque": 32.7,
+   "wear": 83,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1490,
+   "torque": 33.6,
+   "wear": 71,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1757,
+   "torque": 29.1,
+   "wear": 71,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1394,
+   "torque": 46.7,
+   "wear": 130,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1449,
+   "torque": 38.9,
+   "wear": 18,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1495,
+   "torque": 32.6,
+   "wear": 49,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1576,
+   "torque": 39.6,
+   "wear": 109,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1486,
+   "torque": 47.3,
+   "wear": 19,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1680,
+   "torque": 27.2,
+   "wear": 110,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1478,
+   "torque": 40.1,
+   "wear": 5,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1584,
+   "torque": 41.0,
+   "wear": 191,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1587,
+   "torque": 36.6,
+   "wear": 20,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1742,
+   "torque": 28.9,
+   "wear": 150,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1570,
+   "torque": 37.3,
+   "wear": 37,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1434,
+   "torque": 40.8,
+   "wear": 80,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1564,
+   "torque": 34.1,
+   "wear": 99,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1605,
+   "torque": 37.1,
+   "wear": 160,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1498,
+   "torque": 44.0,
+   "wear": 155,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1469,
+   "torque": 40.0,
+   "wear": 154,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1330,
+   "torque": 58.6,
+   "wear": 201,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1459,
+   "torque": 37.9,
+   "wear": 191,
+   "temp_diff": 11.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1445,
+   "torque": 45.2,
+   "wear": 222,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1400,
+   "torque": 48.7,
+   "wear": 194,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1510,
+   "torque": 39.4,
+   "wear": 29,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1377,
+   "torque": 46.7,
+   "wear": 36,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1435,
+   "torque": 48.1,
+   "wear": 12,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1487,
+   "torque": 43.2,
+   "wear": 206,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1534,
+   "torque": 33.8,
+   "wear": 151,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1657,
+   "torque": 31.8,
+   "wear": 217,
+   "temp_diff": 8.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1484,
+   "torque": 43.9,
+   "wear": 13,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1525,
+   "torque": 41.9,
+   "wear": 204,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1403,
+   "torque": 47.7,
+   "wear": 43,
+   "temp_diff": 11.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1539,
+   "torque": 39.9,
+   "wear": 101,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1297,
+   "torque": 62.5,
+   "wear": 109,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1497,
+   "torque": 41.6,
+   "wear": 118,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1693,
+   "torque": 34.4,
+   "wear": 73,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1372,
+   "torque": 47.0,
+   "wear": 59,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1465,
+   "torque": 41.5,
+   "wear": 127,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1517,
+   "torque": 40.8,
+   "wear": 50,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1353,
+   "torque": 58.7,
+   "wear": 86,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1514,
+   "torque": 41.9,
+   "wear": 196,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1263,
+   "torque": 61.8,
+   "wear": 27,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1430,
+   "torque": 47.3,
+   "wear": 49,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1587,
+   "torque": 33.7,
+   "wear": 122,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1870,
+   "torque": 22.5,
+   "wear": 170,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1476,
+   "torque": 39.6,
+   "wear": 96,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1390,
+   "torque": 57.4,
+   "wear": 164,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1435,
+   "torque": 44.8,
+   "wear": 98,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1601,
+   "torque": 31.4,
+   "wear": 121,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1683,
+   "torque": 31.5,
+   "wear": 8,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1395,
+   "torque": 49.8,
+   "wear": 133,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1736,
+   "torque": 26.8,
+   "wear": 27,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1503,
+   "torque": 36.3,
+   "wear": 5,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1516,
+   "torque": 44.4,
+   "wear": 53,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1494,
+   "torque": 37.5,
+   "wear": 198,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 2000,
+   "torque": 21.9,
+   "wear": 200,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1663,
+   "torque": 33.7,
+   "wear": 195,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1705,
+   "torque": 30.1,
+   "wear": 84,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1535,
+   "torque": 37.1,
+   "wear": 113,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1420,
+   "torque": 44.1,
+   "wear": 60,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1804,
+   "torque": 25.0,
+   "wear": 43,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1607,
+   "torque": 31.7,
+   "wear": 34,
+   "temp_diff": 7.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1397,
+   "torque": 44.6,
+   "wear": 57,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1524,
+   "torque": 40.6,
+   "wear": 98,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1531,
+   "torque": 37.9,
+   "wear": 203,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1647,
+   "torque": 35.0,
+   "wear": 74,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1634,
+   "torque": 36.9,
+   "wear": 71,
+   "temp_diff": 8.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1485,
+   "torque": 43.3,
+   "wear": 174,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1490,
+   "torque": 38.6,
+   "wear": 127,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1885,
+   "torque": 25.2,
+   "wear": 24,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1499,
+   "torque": 35.0,
+   "wear": 215,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1368,
+   "torque": 52.0,
+   "wear": 140,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1427,
+   "torque": 41.5,
+   "wear": 29,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1468,
+   "torque": 39.2,
+   "wear": 35,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1385,
+   "torque": 43.2,
+   "wear": 119,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1408,
+   "torque": 38.8,
+   "wear": 20,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1455,
+   "torque": 48.0,
+   "wear": 203,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1510,
+   "torque": 45.5,
+   "wear": 27,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1735,
+   "torque": 27.2,
+   "wear": 192,
+   "temp_diff": 7.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1596,
+   "torque": 37.1,
+   "wear": 30,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1488,
+   "torque": 41.9,
+   "wear": 196,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1918,
+   "torque": 21.7,
+   "wear": 28,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1852,
+   "torque": 22.2,
+   "wear": 53,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1646,
+   "torque": 30.7,
+   "wear": 76,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1350,
+   "torque": 52.2,
+   "wear": 157,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1476,
+   "torque": 47.4,
+   "wear": 161,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1517,
+   "torque": 39.5,
+   "wear": 69,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1530,
+   "torque": 35.9,
+   "wear": 68,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1467,
+   "torque": 41.8,
+   "wear": 48,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1700,
+   "torque": 28.8,
+   "wear": 39,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1693,
+   "torque": 31.9,
+   "wear": 51,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1550,
+   "torque": 47.8,
+   "wear": 18,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1510,
+   "torque": 44.9,
+   "wear": 33,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1402,
+   "torque": 49.8,
+   "wear": 167,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1331,
+   "torque": 50.2,
+   "wear": 98,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1356,
+   "torque": 44.4,
+   "wear": 136,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1451,
+   "torque": 43.8,
+   "wear": 24,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1485,
+   "torque": 40.1,
+   "wear": 142,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1347,
+   "torque": 55.8,
+   "wear": 188,
+   "temp_diff": 11.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1582,
+   "torque": 35.6,
+   "wear": 202,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1542,
+   "torque": 36.2,
+   "wear": 12,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1696,
+   "torque": 29.7,
+   "wear": 162,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1701,
+   "torque": 30.8,
+   "wear": 12,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1555,
+   "torque": 41.2,
+   "wear": 131,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1958,
+   "torque": 20.3,
+   "wear": 56,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1444,
+   "torque": 51.2,
+   "wear": 174,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1838,
+   "torque": 24.0,
+   "wear": 235,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1379,
+   "torque": 43.3,
+   "wear": 111,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1413,
+   "torque": 46.6,
+   "wear": 30,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1652,
+   "torque": 31.0,
+   "wear": 81,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1410,
+   "torque": 49.0,
+   "wear": 223,
+   "temp_diff": 7.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1397,
+   "torque": 53.7,
+   "wear": 80,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1456,
+   "torque": 47.6,
+   "wear": 127,
+   "temp_diff": 8.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1609,
+   "torque": 30.3,
+   "wear": 64,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1589,
+   "torque": 30.6,
+   "wear": 11,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1346,
+   "torque": 51.1,
+   "wear": 147,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1806,
+   "torque": 24.4,
+   "wear": 88,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1537,
+   "torque": 37.7,
+   "wear": 15,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1400,
+   "torque": 53.7,
+   "wear": 175,
+   "temp_diff": 7.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1493,
+   "torque": 47.6,
+   "wear": 145,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1403,
+   "torque": 52.8,
+   "wear": 94,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 2142,
+   "torque": 16.6,
+   "wear": 144,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1497,
+   "torque": 38.4,
+   "wear": 28,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1512,
+   "torque": 37.2,
+   "wear": 126,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1314,
+   "torque": 50.2,
+   "wear": 179,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1438,
+   "torque": 46.6,
+   "wear": 103,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1898,
+   "torque": 22.7,
+   "wear": 20,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1475,
+   "torque": 40.0,
+   "wear": 123,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1353,
+   "torque": 54.1,
+   "wear": 38,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1357,
+   "torque": 44.2,
+   "wear": 142,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1683,
+   "torque": 32.8,
+   "wear": 122,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1585,
+   "torque": 32.1,
+   "wear": 202,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1657,
+   "torque": 33.1,
+   "wear": 187,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1438,
+   "torque": 40.9,
+   "wear": 7,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1578,
+   "torque": 38.4,
+   "wear": 49,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1478,
+   "torque": 42.3,
+   "wear": 193,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1304,
+   "torque": 49.8,
+   "wear": 45,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1610,
+   "torque": 31.7,
+   "wear": 155,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1483,
+   "torque": 40.2,
+   "wear": 162,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1618,
+   "torque": 37.6,
+   "wear": 32,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1379,
+   "torque": 46.8,
+   "wear": 39,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1549,
+   "torque": 43.4,
+   "wear": 233,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1569,
+   "torque": 40.8,
+   "wear": 73,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1496,
+   "torque": 40.0,
+   "wear": 0,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1424,
+   "torque": 51.1,
+   "wear": 22,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1491,
+   "torque": 36.9,
+   "wear": 192,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1281,
+   "torque": 48.8,
+   "wear": 0,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1547,
+   "torque": 38.0,
+   "wear": 181,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1511,
+   "torque": 33.0,
+   "wear": 200,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1556,
+   "torque": 45.3,
+   "wear": 58,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1389,
+   "torque": 46.5,
+   "wear": 186,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1484,
+   "torque": 44.6,
+   "wear": 223,
+   "temp_diff": 8.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1452,
+   "torque": 43.6,
+   "wear": 185,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1387,
+   "torque": 57.3,
+   "wear": 154,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1404,
+   "torque": 55.8,
+   "wear": 84,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1394,
+   "torque": 50.0,
+   "wear": 62,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1352,
+   "torque": 44.4,
+   "wear": 0,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1480,
+   "torque": 42.2,
+   "wear": 58,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1296,
+   "torque": 62.9,
+   "wear": 41,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1399,
+   "torque": 47.6,
+   "wear": 84,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1420,
+   "torque": 45.4,
+   "wear": 70,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1475,
+   "torque": 54.2,
+   "wear": 53,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1503,
+   "torque": 48.6,
+   "wear": 72,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1468,
+   "torque": 36.0,
+   "wear": 168,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1686,
+   "torque": 26.2,
+   "wear": 189,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1611,
+   "torque": 30.6,
+   "wear": 195,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1488,
+   "torque": 44.0,
+   "wear": 43,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1577,
+   "torque": 33.2,
+   "wear": 0,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1759,
+   "torque": 28.4,
+   "wear": 74,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1598,
+   "torque": 35.4,
+   "wear": 186,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1379,
+   "torque": 47.3,
+   "wear": 28,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1477,
+   "torque": 35.2,
+   "wear": 53,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1889,
+   "torque": 23.5,
+   "wear": 198,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1618,
+   "torque": 36.7,
+   "wear": 115,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1586,
+   "torque": 35.5,
+   "wear": 0,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1564,
+   "torque": 33.4,
+   "wear": 183,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1462,
+   "torque": 50.0,
+   "wear": 51,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1333,
+   "torque": 50.2,
+   "wear": 177,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1406,
+   "torque": 55.1,
+   "wear": 136,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1647,
+   "torque": 31.8,
+   "wear": 52,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1679,
+   "torque": 31.2,
+   "wear": 120,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1255,
+   "torque": 60.7,
+   "wear": 77,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1702,
+   "torque": 30.7,
+   "wear": 124,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1532,
+   "torque": 38.7,
+   "wear": 136,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1538,
+   "torque": 44.3,
+   "wear": 43,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1637,
+   "torque": 38.0,
+   "wear": 68,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1380,
+   "torque": 44.7,
+   "wear": 170,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1580,
+   "torque": 32.2,
+   "wear": 39,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1532,
+   "torque": 42.7,
+   "wear": 194,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1370,
+   "torque": 56.1,
+   "wear": 7,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1323,
+   "torque": 49.7,
+   "wear": 79,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1560,
+   "torque": 35.4,
+   "wear": 14,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1456,
+   "torque": 39.6,
+   "wear": 199,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1667,
+   "torque": 30.6,
+   "wear": 59,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1698,
+   "torque": 30.8,
+   "wear": 48,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1499,
+   "torque": 38.1,
+   "wear": 61,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1368,
+   "torque": 53.6,
+   "wear": 165,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1408,
+   "torque": 47.0,
+   "wear": 202,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1980,
+   "torque": 21.5,
+   "wear": 20,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1624,
+   "torque": 32.6,
+   "wear": 175,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1590,
+   "torque": 36.3,
+   "wear": 93,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1278,
+   "torque": 60.5,
+   "wear": 32,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1558,
+   "torque": 36.7,
+   "wear": 113,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1657,
+   "torque": 32.2,
+   "wear": 179,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1402,
+   "torque": 40.2,
+   "wear": 114,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1513,
+   "torque": 38.0,
+   "wear": 38,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1274,
+   "torque": 54.3,
+   "wear": 121,
+   "temp_diff": 11.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1306,
+   "torque": 50.7,
+   "wear": 38,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1392,
+   "torque": 44.2,
+   "wear": 97,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1574,
+   "torque": 33.5,
+   "wear": 101,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1424,
+   "torque": 53.8,
+   "wear": 133,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1535,
+   "torque": 35.4,
+   "wear": 148,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1475,
+   "torque": 47.2,
+   "wear": 69,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1349,
+   "torque": 52.7,
+   "wear": 92,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1365,
+   "torque": 53.0,
+   "wear": 85,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1442,
+   "torque": 47.0,
+   "wear": 18,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1615,
+   "torque": 29.9,
+   "wear": 176,
+   "temp_diff": 8.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1424,
+   "torque": 43.3,
+   "wear": 120,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1728,
+   "torque": 26.0,
+   "wear": 37,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1415,
+   "torque": 55.8,
+   "wear": 82,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1399,
+   "torque": 59.0,
+   "wear": 135,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1582,
+   "torque": 33.4,
+   "wear": 121,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1556,
+   "torque": 39.5,
+   "wear": 168,
+   "temp_diff": 11.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1532,
+   "torque": 36.6,
+   "wear": 62,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1580,
+   "torque": 33.9,
+   "wear": 70,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1671,
+   "torque": 33.5,
+   "wear": 148,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1612,
+   "torque": 35.4,
+   "wear": 205,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1538,
+   "torque": 38.5,
+   "wear": 47,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1426,
+   "torque": 40.7,
+   "wear": 54,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1457,
+   "torque": 44.1,
+   "wear": 40,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1812,
+   "torque": 28.3,
+   "wear": 94,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1671,
+   "torque": 31.8,
+   "wear": 108,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1409,
+   "torque": 46.4,
+   "wear": 12,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1545,
+   "torque": 36.9,
+   "wear": 3,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1486,
+   "torque": 41.2,
+   "wear": 127,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1397,
+   "torque": 54.1,
+   "wear": 47,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1725,
+   "torque": 28.3,
+   "wear": 177,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1360,
+   "torque": 48.0,
+   "wear": 119,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1485,
+   "torque": 42.4,
+   "wear": 74,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1518,
+   "torque": 39.8,
+   "wear": 165,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1639,
+   "torque": 36.6,
+   "wear": 121,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1659,
+   "torque": 34.7,
+   "wear": 94,
+   "temp_diff": 8.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1589,
+   "torque": 35.0,
+   "wear": 52,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1393,
+   "torque": 47.5,
+   "wear": 130,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1658,
+   "torque": 41.0,
+   "wear": 74,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1635,
+   "torque": 30.5,
+   "wear": 159,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1588,
+   "torque": 30.6,
+   "wear": 39,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1443,
+   "torque": 49.3,
+   "wear": 52,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1702,
+   "torque": 31.2,
+   "wear": 144,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1588,
+   "torque": 33.4,
+   "wear": 204,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1396,
+   "torque": 48.7,
+   "wear": 13,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1462,
+   "torque": 40.4,
+   "wear": 19,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1593,
+   "torque": 32.2,
+   "wear": 118,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1534,
+   "torque": 33.2,
+   "wear": 210,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1561,
+   "torque": 32.6,
+   "wear": 201,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1552,
+   "torque": 40.7,
+   "wear": 120,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1447,
+   "torque": 45.4,
+   "wear": 204,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1647,
+   "torque": 34.2,
+   "wear": 14,
+   "temp_diff": 7.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1336,
+   "torque": 45.0,
+   "wear": 66,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1314,
+   "torque": 42.4,
+   "wear": 198,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1361,
+   "torque": 44.2,
+   "wear": 0,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1554,
+   "torque": 40.2,
+   "wear": 118,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1383,
+   "torque": 44.6,
+   "wear": 184,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1520,
+   "torque": 35.7,
+   "wear": 40,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1585,
+   "torque": 34.3,
+   "wear": 33,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1514,
+   "torque": 35.7,
+   "wear": 100,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1707,
+   "torque": 28.1,
+   "wear": 103,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1675,
+   "torque": 30.7,
+   "wear": 200,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1397,
+   "torque": 49.4,
+   "wear": 104,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1478,
+   "torque": 46.9,
+   "wear": 116,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1617,
+   "torque": 31.6,
+   "wear": 173,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1454,
+   "torque": 50.3,
+   "wear": 175,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1439,
+   "torque": 38.5,
+   "wear": 34,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1553,
+   "torque": 34.1,
+   "wear": 89,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1598,
+   "torque": 29.4,
+   "wear": 148,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1404,
+   "torque": 44.6,
+   "wear": 87,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1528,
+   "torque": 39.9,
+   "wear": 160,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1468,
+   "torque": 49.6,
+   "wear": 132,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 2355,
+   "torque": 14.4,
+   "wear": 201,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1384,
+   "torque": 59.5,
+   "wear": 27,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1435,
+   "torque": 55.0,
+   "wear": 104,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1694,
+   "torque": 30.3,
+   "wear": 204,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1392,
+   "torque": 48.7,
+   "wear": 133,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1677,
+   "torque": 30.1,
+   "wear": 130,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1513,
+   "torque": 36.1,
+   "wear": 212,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1489,
+   "torque": 42.3,
+   "wear": 114,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1811,
+   "torque": 24.6,
+   "wear": 77,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1453,
+   "torque": 40.8,
+   "wear": 11,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1489,
+   "torque": 38.3,
+   "wear": 35,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1447,
+   "torque": 47.9,
+   "wear": 188,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1183,
+   "torque": 61.4,
+   "wear": 170,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1513,
+   "torque": 38.8,
+   "wear": 189,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1351,
+   "torque": 53.5,
+   "wear": 78,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1393,
+   "torque": 52.6,
+   "wear": 167,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1631,
+   "torque": 32.6,
+   "wear": 43,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1366,
+   "torque": 50.6,
+   "wear": 106,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1454,
+   "torque": 46.8,
+   "wear": 30,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1493,
+   "torque": 35.1,
+   "wear": 131,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1557,
+   "torque": 39.4,
+   "wear": 2,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1375,
+   "torque": 54.0,
+   "wear": 186,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1550,
+   "torque": 33.7,
+   "wear": 174,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1604,
+   "torque": 40.7,
+   "wear": 158,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1293,
+   "torque": 52.3,
+   "wear": 49,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1498,
+   "torque": 38.3,
+   "wear": 81,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1800,
+   "torque": 24.3,
+   "wear": 128,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1691,
+   "torque": 27.7,
+   "wear": 105,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1269,
+   "torque": 60.9,
+   "wear": 163,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1550,
+   "torque": 38.8,
+   "wear": 53,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1426,
+   "torque": 46.1,
+   "wear": 81,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 2203,
+   "torque": 16.6,
+   "wear": 47,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1535,
+   "torque": 39.8,
+   "wear": 87,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1575,
+   "torque": 35.0,
+   "wear": 137,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1480,
+   "torque": 43.7,
+   "wear": 153,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1383,
+   "torque": 49.6,
+   "wear": 101,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1622,
+   "torque": 34.1,
+   "wear": 3,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1603,
+   "torque": 30.5,
+   "wear": 176,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1331,
+   "torque": 62.8,
+   "wear": 81,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1561,
+   "torque": 32.7,
+   "wear": 67,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1432,
+   "torque": 46.2,
+   "wear": 11,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1515,
+   "torque": 40.1,
+   "wear": 179,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1948,
+   "torque": 19.7,
+   "wear": 66,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1705,
+   "torque": 26.3,
+   "wear": 177,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1587,
+   "torque": 30.2,
+   "wear": 162,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1417,
+   "torque": 40.6,
+   "wear": 121,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1448,
+   "torque": 40.0,
+   "wear": 192,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1536,
+   "torque": 34.5,
+   "wear": 154,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1543,
+   "torque": 34.0,
+   "wear": 55,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1521,
+   "torque": 37.2,
+   "wear": 90,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 2022,
+   "torque": 20.0,
+   "wear": 23,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1381,
+   "torque": 52.4,
+   "wear": 140,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1615,
+   "torque": 32.6,
+   "wear": 184,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1378,
+   "torque": 51.9,
+   "wear": 162,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1462,
+   "torque": 40.5,
+   "wear": 24,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1585,
+   "torque": 33.5,
+   "wear": 212,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1423,
+   "torque": 44.2,
+   "wear": 189,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1361,
+   "torque": 53.8,
+   "wear": 193,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1434,
+   "torque": 58.6,
+   "wear": 102,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1489,
+   "torque": 40.6,
+   "wear": 89,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1419,
+   "torque": 48.2,
+   "wear": 215,
+   "temp_diff": 12.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1585,
+   "torque": 32.2,
+   "wear": 89,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1471,
+   "torque": 39.3,
+   "wear": 91,
+   "temp_diff": 10.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1858,
+   "torque": 22.5,
+   "wear": 22,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1332,
+   "torque": 51.0,
+   "wear": 72,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1398,
+   "torque": 42.6,
+   "wear": 176,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1867,
+   "torque": 22.8,
+   "wear": 118,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1499,
+   "torque": 44.1,
+   "wear": 166,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1536,
+   "torque": 40.4,
+   "wear": 217,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 2168,
+   "torque": 17.7,
+   "wear": 219,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1440,
+   "torque": 53.8,
+   "wear": 90,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1447,
+   "torque": 45.5,
+   "wear": 173,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1744,
+   "torque": 26.9,
+   "wear": 111,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1478,
+   "torque": 47.7,
+   "wear": 189,
+   "temp_diff": 7.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1489,
+   "torque": 49.1,
+   "wear": 128,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1567,
+   "torque": 34.3,
+   "wear": 130,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1542,
+   "torque": 36.7,
+   "wear": 101,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1375,
+   "torque": 46.2,
+   "wear": 98,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1538,
+   "torque": 37.6,
+   "wear": 54,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1661,
+   "torque": 34.2,
+   "wear": 109,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1589,
+   "torque": 37.9,
+   "wear": 75,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1642,
+   "torque": 32.4,
+   "wear": 126,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1479,
+   "torque": 41.1,
+   "wear": 72,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1477,
+   "torque": 50.4,
+   "wear": 90,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1474,
+   "torque": 42.4,
+   "wear": 171,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1567,
+   "torque": 39.1,
+   "wear": 114,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1612,
+   "torque": 29.8,
+   "wear": 148,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1418,
+   "torque": 43.4,
+   "wear": 130,
+   "temp_diff": 8.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1924,
+   "torque": 20.8,
+   "wear": 29,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1533,
+   "torque": 31.8,
+   "wear": 91,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1388,
+   "torque": 40.3,
+   "wear": 109,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1332,
+   "torque": 48.0,
+   "wear": 148,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1297,
+   "torque": 54.2,
+   "wear": 110,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1781,
+   "torque": 23.9,
+   "wear": 198,
+   "temp_diff": 8.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1506,
+   "torque": 40.8,
+   "wear": 204,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1481,
+   "torque": 42.6,
+   "wear": 213,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1696,
+   "torque": 29.6,
+   "wear": 65,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1775,
+   "torque": 27.9,
+   "wear": 56,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1425,
+   "torque": 49.6,
+   "wear": 35,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1479,
+   "torque": 49.1,
+   "wear": 71,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1553,
+   "torque": 40.5,
+   "wear": 135,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1497,
+   "torque": 40.5,
+   "wear": 58,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1764,
+   "torque": 29.9,
+   "wear": 162,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1485,
+   "torque": 40.7,
+   "wear": 57,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1392,
+   "torque": 42.4,
+   "wear": 3,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1383,
+   "torque": 49.1,
+   "wear": 33,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1481,
+   "torque": 38.5,
+   "wear": 181,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1488,
+   "torque": 41.8,
+   "wear": 75,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1971,
+   "torque": 23.2,
+   "wear": 155,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1445,
+   "torque": 48.0,
+   "wear": 73,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1873,
+   "torque": 21.3,
+   "wear": 87,
+   "temp_diff": 7.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1481,
+   "torque": 41.5,
+   "wear": 83,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1638,
+   "torque": 35.4,
+   "wear": 116,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1541,
+   "torque": 36.6,
+   "wear": 143,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1540,
+   "torque": 36.6,
+   "wear": 28,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1365,
+   "torque": 48.2,
+   "wear": 199,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1485,
+   "torque": 47.1,
+   "wear": 209,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1354,
+   "torque": 49.4,
+   "wear": 117,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1424,
+   "torque": 50.4,
+   "wear": 32,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1409,
+   "torque": 44.7,
+   "wear": 46,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1463,
+   "torque": 46.8,
+   "wear": 150,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1827,
+   "torque": 24.2,
+   "wear": 132,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1450,
+   "torque": 45.3,
+   "wear": 29,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1350,
+   "torque": 58.7,
+   "wear": 130,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1368,
+   "torque": 44.7,
+   "wear": 147,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1571,
+   "torque": 34.2,
+   "wear": 201,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1450,
+   "torque": 40.1,
+   "wear": 100,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 2071,
+   "torque": 18.5,
+   "wear": 144,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1702,
+   "torque": 29.3,
+   "wear": 32,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1460,
+   "torque": 49.8,
+   "wear": 2,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1477,
+   "torque": 44.2,
+   "wear": 166,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1389,
+   "torque": 54.9,
+   "wear": 187,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1469,
+   "torque": 36.9,
+   "wear": 133,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1481,
+   "torque": 48.0,
+   "wear": 117,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1537,
+   "torque": 42.8,
+   "wear": 202,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1352,
+   "torque": 49.7,
+   "wear": 184,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 2103,
+   "torque": 19.7,
+   "wear": 12,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1366,
+   "torque": 59.0,
+   "wear": 94,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1572,
+   "torque": 34.1,
+   "wear": 80,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1887,
+   "torque": 24.3,
+   "wear": 28,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1319,
+   "torque": 54.6,
+   "wear": 15,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1509,
+   "torque": 38.0,
+   "wear": 168,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1469,
+   "torque": 36.9,
+   "wear": 143,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1715,
+   "torque": 28.0,
+   "wear": 30,
+   "temp_diff": 11.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1430,
+   "torque": 49.4,
+   "wear": 2,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1498,
+   "torque": 34.6,
+   "wear": 46,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1431,
+   "torque": 39.9,
+   "wear": 157,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1546,
+   "torque": 40.0,
+   "wear": 71,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1470,
+   "torque": 41.1,
+   "wear": 118,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1548,
+   "torque": 41.6,
+   "wear": 25,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1665,
+   "torque": 29.6,
+   "wear": 20,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1383,
+   "torque": 51.3,
+   "wear": 190,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1441,
+   "torque": 46.3,
+   "wear": 100,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1415,
+   "torque": 43.5,
+   "wear": 98,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1504,
+   "torque": 43.3,
+   "wear": 37,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1451,
+   "torque": 44.7,
+   "wear": 32,
+   "temp_diff": 8.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1718,
+   "torque": 26.5,
+   "wear": 130,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1592,
+   "torque": 36.0,
+   "wear": 14,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1419,
+   "torque": 48.5,
+   "wear": 108,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1502,
+   "torque": 38.3,
+   "wear": 88,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1348,
+   "torque": 51.0,
+   "wear": 87,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1486,
+   "torque": 36.5,
+   "wear": 91,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1395,
+   "torque": 44.0,
+   "wear": 92,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1617,
+   "torque": 40.8,
+   "wear": 158,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1442,
+   "torque": 48.0,
+   "wear": 181,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1555,
+   "torque": 36.2,
+   "wear": 0,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1421,
+   "torque": 42.0,
+   "wear": 165,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1562,
+   "torque": 34.4,
+   "wear": 162,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1628,
+   "torque": 35.9,
+   "wear": 174,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1633,
+   "torque": 27.5,
+   "wear": 29,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1478,
+   "torque": 50.1,
+   "wear": 166,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1616,
+   "torque": 29.3,
+   "wear": 226,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1392,
+   "torque": 60.5,
+   "wear": 10,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1403,
+   "torque": 55.6,
+   "wear": 150,
+   "temp_diff": 8.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1545,
+   "torque": 40.1,
+   "wear": 165,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1883,
+   "torque": 23.3,
+   "wear": 100,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1350,
+   "torque": 51.7,
+   "wear": 18,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1452,
+   "torque": 39.8,
+   "wear": 21,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1602,
+   "torque": 35.9,
+   "wear": 67,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1644,
+   "torque": 32.5,
+   "wear": 201,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1632,
+   "torque": 32.5,
+   "wear": 55,
+   "temp_diff": 10.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1493,
+   "torque": 37.5,
+   "wear": 219,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1443,
+   "torque": 39.2,
+   "wear": 13,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1602,
+   "torque": 31.5,
+   "wear": 193,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1382,
+   "torque": 48.1,
+   "wear": 186,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1504,
+   "torque": 49.5,
+   "wear": 109,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1422,
+   "torque": 41.9,
+   "wear": 156,
+   "temp_diff": 7.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1531,
+   "torque": 38.0,
+   "wear": 161,
+   "temp_diff": 7.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1444,
+   "torque": 40.5,
+   "wear": 170,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1540,
+   "torque": 37.4,
+   "wear": 75,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1447,
+   "torque": 58.1,
+   "wear": 129,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1830,
+   "torque": 26.2,
+   "wear": 78,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1556,
+   "torque": 36.5,
+   "wear": 44,
+   "temp_diff": 8.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1507,
+   "torque": 37.5,
+   "wear": 55,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1494,
+   "torque": 37.0,
+   "wear": 67,
+   "temp_diff": 8.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1477,
+   "torque": 40.4,
+   "wear": 138,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1408,
+   "torque": 44.4,
+   "wear": 106,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1541,
+   "torque": 38.5,
+   "wear": 208,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1906,
+   "torque": 21.7,
+   "wear": 62,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 2028,
+   "torque": 18.9,
+   "wear": 45,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1467,
+   "torque": 37.1,
+   "wear": 153,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1751,
+   "torque": 26.6,
+   "wear": 111,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1501,
+   "torque": 43.0,
+   "wear": 91,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1589,
+   "torque": 30.5,
+   "wear": 198,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1547,
+   "torque": 36.9,
+   "wear": 103,
+   "temp_diff": 7.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1910,
+   "torque": 19.7,
+   "wear": 13,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1855,
+   "torque": 23.9,
+   "wear": 43,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1545,
+   "torque": 42.1,
+   "wear": 68,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1429,
+   "torque": 42.0,
+   "wear": 6,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1370,
+   "torque": 50.3,
+   "wear": 20,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1445,
+   "torque": 49.1,
+   "wear": 2,
+   "temp_diff": 8.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1324,
+   "torque": 56.9,
+   "wear": 173,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1767,
+   "torque": 27.3,
+   "wear": 168,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1523,
+   "torque": 41.5,
+   "wear": 181,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1918,
+   "torque": 21.6,
+   "wear": 131,
+   "temp_diff": 8.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1663,
+   "torque": 33.6,
+   "wear": 38,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1486,
+   "torque": 39.6,
+   "wear": 147,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1519,
+   "torque": 39.3,
+   "wear": 155,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1457,
+   "torque": 44.2,
+   "wear": 175,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1481,
+   "torque": 40.2,
+   "wear": 230,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1514,
+   "torque": 36.1,
+   "wear": 169,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1587,
+   "torque": 36.1,
+   "wear": 98,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1564,
+   "torque": 39.0,
+   "wear": 26,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1500,
+   "torque": 36.7,
+   "wear": 17,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1771,
+   "torque": 27.4,
+   "wear": 100,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1435,
+   "torque": 44.6,
+   "wear": 135,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1321,
+   "torque": 60.8,
+   "wear": 73,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1415,
+   "torque": 43.5,
+   "wear": 53,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1978,
+   "torque": 22.0,
+   "wear": 106,
+   "temp_diff": 8.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1732,
+   "torque": 26.2,
+   "wear": 126,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1467,
+   "torque": 37.3,
+   "wear": 193,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1723,
+   "torque": 27.3,
+   "wear": 67,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1532,
+   "torque": 41.5,
+   "wear": 126,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1515,
+   "torque": 40.9,
+   "wear": 21,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1605,
+   "torque": 35.2,
+   "wear": 152,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1311,
+   "torque": 54.5,
+   "wear": 52,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1542,
+   "torque": 37.0,
+   "wear": 184,
+   "temp_diff": 11.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1786,
+   "torque": 25.7,
+   "wear": 47,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1679,
+   "torque": 33.3,
+   "wear": 167,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1446,
+   "torque": 43.3,
+   "wear": 46,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1838,
+   "torque": 27.8,
+   "wear": 181,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1628,
+   "torque": 33.0,
+   "wear": 15,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1659,
+   "torque": 33.1,
+   "wear": 152,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1514,
+   "torque": 35.5,
+   "wear": 138,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1653,
+   "torque": 27.6,
+   "wear": 62,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1723,
+   "torque": 27.6,
+   "wear": 210,
+   "temp_diff": 9.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1374,
+   "torque": 52.4,
+   "wear": 154,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1617,
+   "torque": 33.2,
+   "wear": 185,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1528,
+   "torque": 37.5,
+   "wear": 54,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1574,
+   "torque": 32.7,
+   "wear": 175,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1502,
+   "torque": 36.0,
+   "wear": 69,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1597,
+   "torque": 35.8,
+   "wear": 160,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1466,
+   "torque": 39.7,
+   "wear": 34,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1533,
+   "torque": 36.8,
+   "wear": 198,
+   "temp_diff": 12.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1525,
+   "torque": 43.7,
+   "wear": 91,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1518,
+   "torque": 46.9,
+   "wear": 87,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1537,
+   "torque": 36.3,
+   "wear": 233,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1740,
+   "torque": 28.2,
+   "wear": 78,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1547,
+   "torque": 32.6,
+   "wear": 79,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1522,
+   "torque": 41.0,
+   "wear": 114,
+   "temp_diff": 9.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1593,
+   "torque": 37.4,
+   "wear": 47,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1432,
+   "torque": 45.8,
+   "wear": 6,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1712,
+   "torque": 26.4,
+   "wear": 95,
+   "temp_diff": 9.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1439,
+   "torque": 39.2,
+   "wear": 104,
+   "temp_diff": 10.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1789,
+   "torque": 23.5,
+   "wear": 215,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1607,
+   "torque": 33.7,
+   "wear": 14,
+   "temp_diff": 8.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1572,
+   "torque": 37.2,
+   "wear": 192,
+   "temp_diff": 9.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1782,
+   "torque": 26.9,
+   "wear": 116,
+   "temp_diff": 10.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1366,
+   "torque": 47.7,
+   "wear": 206,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1439,
+   "torque": 47.1,
+   "wear": 149,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1489,
+   "torque": 38.4,
+   "wear": 109,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1708,
+   "torque": 27.3,
+   "wear": 170,
+   "temp_diff": 10.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1476,
+   "torque": 45.6,
+   "wear": 31,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1518,
+   "torque": 42.4,
+   "wear": 105,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1345,
+   "torque": 62.7,
+   "wear": 153,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1406,
+   "torque": 47.1,
+   "wear": 213,
+   "temp_diff": 8.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1796,
+   "torque": 26.0,
+   "wear": 90,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1958,
+   "torque": 19.1,
+   "wear": 67,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1724,
+   "torque": 28.1,
+   "wear": 133,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1427,
+   "torque": 50.7,
+   "wear": 122,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1389,
+   "torque": 45.3,
+   "wear": 64,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1562,
+   "torque": 38.1,
+   "wear": 78,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1640,
+   "torque": 33.8,
+   "wear": 9,
+   "temp_diff": 11.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1596,
+   "torque": 30.4,
+   "wear": 191,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1504,
+   "torque": 39.3,
+   "wear": 192,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1721,
+   "torque": 29.4,
+   "wear": 170,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1623,
+   "torque": 36.9,
+   "wear": 61,
+   "temp_diff": 10.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1650,
+   "torque": 34.6,
+   "wear": 142,
+   "temp_diff": 11.9,
+   "failed": 0
+  },
+  {
+   "rpm": 2083,
+   "torque": 18.2,
+   "wear": 205,
+   "temp_diff": 11.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1477,
+   "torque": 34.6,
+   "wear": 195,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1403,
+   "torque": 51.3,
+   "wear": 122,
+   "temp_diff": 11.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1499,
+   "torque": 37.6,
+   "wear": 73,
+   "temp_diff": 11.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1441,
+   "torque": 40.1,
+   "wear": 46,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1525,
+   "torque": 43.9,
+   "wear": 188,
+   "temp_diff": 8.7,
+   "failed": 0
+  },
+  {
+   "rpm": 1401,
+   "torque": 48.1,
+   "wear": 143,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1384,
+   "torque": 50.9,
+   "wear": 99,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1458,
+   "torque": 45.7,
+   "wear": 202,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1523,
+   "torque": 34.2,
+   "wear": 119,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1608,
+   "torque": 33.0,
+   "wear": 160,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1679,
+   "torque": 29.8,
+   "wear": 64,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1483,
+   "torque": 49.3,
+   "wear": 124,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1350,
+   "torque": 47.7,
+   "wear": 168,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1398,
+   "torque": 38.1,
+   "wear": 88,
+   "temp_diff": 11.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1396,
+   "torque": 48.5,
+   "wear": 5,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1613,
+   "torque": 30.8,
+   "wear": 80,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1445,
+   "torque": 48.5,
+   "wear": 70,
+   "temp_diff": 9.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1479,
+   "torque": 39.2,
+   "wear": 58,
+   "temp_diff": 10.0,
+   "failed": 0
+  },
+  {
+   "rpm": 1560,
+   "torque": 36.8,
+   "wear": 113,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1460,
+   "torque": 53.6,
+   "wear": 74,
+   "temp_diff": 9.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1303,
+   "torque": 54.4,
+   "wear": 2,
+   "temp_diff": 9.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1514,
+   "torque": 34.7,
+   "wear": 130,
+   "temp_diff": 8.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1668,
+   "torque": 34.4,
+   "wear": 137,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1656,
+   "torque": 30.3,
+   "wear": 124,
+   "temp_diff": 11.1,
+   "failed": 0
+  },
+  {
+   "rpm": 1780,
+   "torque": 29.3,
+   "wear": 91,
+   "temp_diff": 10.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1532,
+   "torque": 36.1,
+   "wear": 77,
+   "temp_diff": 7.8,
+   "failed": 0
+  },
+  {
+   "rpm": 1401,
+   "torque": 51.1,
+   "wear": 50,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1583,
+   "torque": 38.9,
+   "wear": 94,
+   "temp_diff": 8.6,
+   "failed": 0
+  },
+  {
+   "rpm": 1598,
+   "torque": 32.8,
+   "wear": 79,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1636,
+   "torque": 29.9,
+   "wear": 201,
+   "temp_diff": 9.5,
+   "failed": 0
+  },
+  {
+   "rpm": 1502,
+   "torque": 37.3,
+   "wear": 181,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1732,
+   "torque": 25.7,
+   "wear": 109,
+   "temp_diff": 10.1,
+   "failed": 0
+  },
+  {
+   "rpm": 2026,
+   "torque": 20.3,
+   "wear": 26,
+   "temp_diff": 10.9,
+   "failed": 0
+  },
+  {
+   "rpm": 1546,
+   "torque": 36.2,
+   "wear": 177,
+   "temp_diff": 11.3,
+   "failed": 0
+  },
+  {
+   "rpm": 1328,
+   "torque": 49.8,
+   "wear": 120,
+   "temp_diff": 9.2,
+   "failed": 0
+  },
+  {
+   "rpm": 1600,
+   "torque": 39.0,
+   "wear": 160,
+   "temp_diff": 9.4,
+   "failed": 0
+  },
+  {
+   "rpm": 1455,
+   "torque": 41.3,
+   "wear": 208,
+   "temp_diff": 10.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1282,
+   "torque": 60.7,
+   "wear": 216,
+   "temp_diff": 9.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1433,
+   "torque": 62.3,
+   "wear": 20,
+   "temp_diff": 9.9,
+   "failed": 1
+  },
+  {
+   "rpm": 2678,
+   "torque": 10.7,
+   "wear": 86,
+   "temp_diff": 10.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1421,
+   "torque": 60.7,
+   "wear": 119,
+   "temp_diff": 10.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1348,
+   "torque": 58.8,
+   "wear": 202,
+   "temp_diff": 10.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1362,
+   "torque": 56.8,
+   "wear": 216,
+   "temp_diff": 10.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1405,
+   "torque": 56.2,
+   "wear": 218,
+   "temp_diff": 10.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1420,
+   "torque": 63.9,
+   "wear": 19,
+   "temp_diff": 10.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1373,
+   "torque": 56.7,
+   "wear": 203,
+   "temp_diff": 10.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1399,
+   "torque": 61.5,
+   "wear": 61,
+   "temp_diff": 11.1,
+   "failed": 1
+  },
+  {
+   "rpm": 2874,
+   "torque": 4.2,
+   "wear": 118,
+   "temp_diff": 11.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1336,
+   "torque": 71.6,
+   "wear": 31,
+   "temp_diff": 11.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1289,
+   "torque": 62.0,
+   "wear": 199,
+   "temp_diff": 11.3,
+   "failed": 1
+  },
+  {
+   "rpm": 2833,
+   "torque": 5.6,
+   "wear": 213,
+   "temp_diff": 11.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1235,
+   "torque": 76.2,
+   "wear": 89,
+   "temp_diff": 10.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1372,
+   "torque": 55.6,
+   "wear": 215,
+   "temp_diff": 10.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1549,
+   "torque": 35.8,
+   "wear": 206,
+   "temp_diff": 10.9,
+   "failed": 1
+  },
+  {
+   "rpm": 2721,
+   "torque": 9.3,
+   "wear": 18,
+   "temp_diff": 10.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1296,
+   "torque": 69.1,
+   "wear": 153,
+   "temp_diff": 10.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1316,
+   "torque": 61.2,
+   "wear": 200,
+   "temp_diff": 10.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1362,
+   "torque": 52.5,
+   "wear": 213,
+   "temp_diff": 11.1,
+   "failed": 1
+  },
+  {
+   "rpm": 2153,
+   "torque": 15.3,
+   "wear": 98,
+   "temp_diff": 11.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1243,
+   "torque": 74.5,
+   "wear": 194,
+   "temp_diff": 11.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1365,
+   "torque": 49.1,
+   "wear": 226,
+   "temp_diff": 11.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1354,
+   "torque": 53.3,
+   "wear": 212,
+   "temp_diff": 11.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1439,
+   "torque": 45.2,
+   "wear": 40,
+   "temp_diff": 11.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1429,
+   "torque": 37.7,
+   "wear": 220,
+   "temp_diff": 10.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1365,
+   "torque": 52.9,
+   "wear": 218,
+   "temp_diff": 10.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1604,
+   "torque": 36.1,
+   "wear": 225,
+   "temp_diff": 9.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1511,
+   "torque": 31.0,
+   "wear": 209,
+   "temp_diff": 9.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1313,
+   "torque": 67.3,
+   "wear": 67,
+   "temp_diff": 9.7,
+   "failed": 1
+  },
+  {
+   "rpm": 2567,
+   "torque": 12.8,
+   "wear": 125,
+   "temp_diff": 9.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1258,
+   "torque": 69.4,
+   "wear": 119,
+   "temp_diff": 9.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1446,
+   "torque": 62.9,
+   "wear": 134,
+   "temp_diff": 9.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1384,
+   "torque": 53.6,
+   "wear": 218,
+   "temp_diff": 9.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1378,
+   "torque": 50.4,
+   "wear": 220,
+   "temp_diff": 9.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1267,
+   "torque": 68.2,
+   "wear": 76,
+   "temp_diff": 9.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1329,
+   "torque": 53.6,
+   "wear": 207,
+   "temp_diff": 9.7,
+   "failed": 1
+  },
+  {
+   "rpm": 1345,
+   "torque": 60.7,
+   "wear": 191,
+   "temp_diff": 9.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1399,
+   "torque": 41.9,
+   "wear": 221,
+   "temp_diff": 9.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1685,
+   "torque": 28.9,
+   "wear": 179,
+   "temp_diff": 9.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1299,
+   "torque": 65.1,
+   "wear": 212,
+   "temp_diff": 9.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1417,
+   "torque": 51.5,
+   "wear": 231,
+   "temp_diff": 8.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1380,
+   "torque": 47.6,
+   "wear": 246,
+   "temp_diff": 8.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1367,
+   "torque": 63.2,
+   "wear": 45,
+   "temp_diff": 8.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1324,
+   "torque": 72.8,
+   "wear": 159,
+   "temp_diff": 9.3,
+   "failed": 1
+  },
+  {
+   "rpm": 2563,
+   "torque": 12.8,
+   "wear": 81,
+   "temp_diff": 9.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1342,
+   "torque": 62.4,
+   "wear": 113,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 2760,
+   "torque": 8.0,
+   "wear": 15,
+   "temp_diff": 9.4,
+   "failed": 1
+  },
+  {
+   "rpm": 2639,
+   "torque": 12.0,
+   "wear": 21,
+   "temp_diff": 8.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1378,
+   "torque": 53.1,
+   "wear": 212,
+   "temp_diff": 8.9,
+   "failed": 1
+  },
+  {
+   "rpm": 2672,
+   "torque": 11.8,
+   "wear": 124,
+   "temp_diff": 8.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1405,
+   "torque": 46.4,
+   "wear": 207,
+   "temp_diff": 9.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1270,
+   "torque": 65.3,
+   "wear": 182,
+   "temp_diff": 9.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1530,
+   "torque": 37.3,
+   "wear": 207,
+   "temp_diff": 9.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1379,
+   "torque": 49.3,
+   "wear": 34,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1360,
+   "torque": 44.0,
+   "wear": 67,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1326,
+   "torque": 59.1,
+   "wear": 88,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1366,
+   "torque": 48.4,
+   "wear": 130,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1227,
+   "torque": 68.2,
+   "wear": 187,
+   "temp_diff": 9.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1454,
+   "torque": 59.2,
+   "wear": 153,
+   "temp_diff": 9.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1351,
+   "torque": 60.3,
+   "wear": 207,
+   "temp_diff": 8.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1383,
+   "torque": 50.3,
+   "wear": 231,
+   "temp_diff": 8.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1615,
+   "torque": 29.0,
+   "wear": 235,
+   "temp_diff": 8.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1419,
+   "torque": 47.7,
+   "wear": 20,
+   "temp_diff": 9.0,
+   "failed": 1
+  },
+  {
+   "rpm": 2691,
+   "torque": 12.1,
+   "wear": 31,
+   "temp_diff": 9.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1331,
+   "torque": 68.6,
+   "wear": 85,
+   "temp_diff": 8.7,
+   "failed": 1
+  },
+  {
+   "rpm": 1294,
+   "torque": 62.4,
+   "wear": 101,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1357,
+   "torque": 58.0,
+   "wear": 108,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1376,
+   "torque": 54.9,
+   "wear": 126,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1370,
+   "torque": 51.7,
+   "wear": 153,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1340,
+   "torque": 55.7,
+   "wear": 204,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1325,
+   "torque": 45.1,
+   "wear": 208,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1376,
+   "torque": 46.3,
+   "wear": 210,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1286,
+   "torque": 62.8,
+   "wear": 22,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1373,
+   "torque": 48.0,
+   "wear": 73,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1212,
+   "torque": 55.6,
+   "wear": 79,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1346,
+   "torque": 49.2,
+   "wear": 134,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1349,
+   "torque": 46.1,
+   "wear": 148,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1362,
+   "torque": 54.8,
+   "wear": 155,
+   "temp_diff": 8.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1348,
+   "torque": 48.4,
+   "wear": 161,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1710,
+   "torque": 30.4,
+   "wear": 218,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1359,
+   "torque": 49.3,
+   "wear": 41,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1369,
+   "torque": 60.0,
+   "wear": 93,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1330,
+   "torque": 56.9,
+   "wear": 97,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1356,
+   "torque": 55.5,
+   "wear": 101,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1329,
+   "torque": 48.6,
+   "wear": 111,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1284,
+   "torque": 68.0,
+   "wear": 114,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1297,
+   "torque": 60.7,
+   "wear": 125,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1331,
+   "torque": 52.0,
+   "wear": 154,
+   "temp_diff": 8.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1259,
+   "torque": 63.9,
+   "wear": 20,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1341,
+   "torque": 50.5,
+   "wear": 64,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1362,
+   "torque": 55.8,
+   "wear": 70,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1326,
+   "torque": 48.2,
+   "wear": 77,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1284,
+   "torque": 68.2,
+   "wear": 111,
+   "temp_diff": 8.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1386,
+   "torque": 62.7,
+   "wear": 142,
+   "temp_diff": 7.7,
+   "failed": 1
+  },
+  {
+   "rpm": 1379,
+   "torque": 48.2,
+   "wear": 166,
+   "temp_diff": 8.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1308,
+   "torque": 57.6,
+   "wear": 197,
+   "temp_diff": 7.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1298,
+   "torque": 65.5,
+   "wear": 229,
+   "temp_diff": 7.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1442,
+   "torque": 45.3,
+   "wear": 233,
+   "temp_diff": 7.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1355,
+   "torque": 45.1,
+   "wear": 6,
+   "temp_diff": 7.9,
+   "failed": 1
+  },
+  {
+   "rpm": 2676,
+   "torque": 10.8,
+   "wear": 84,
+   "temp_diff": 7.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1325,
+   "torque": 62.4,
+   "wear": 92,
+   "temp_diff": 7.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1379,
+   "torque": 48.9,
+   "wear": 107,
+   "temp_diff": 7.7,
+   "failed": 1
+  },
+  {
+   "rpm": 1321,
+   "torque": 52.7,
+   "wear": 134,
+   "temp_diff": 7.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1374,
+   "torque": 51.2,
+   "wear": 163,
+   "temp_diff": 7.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1378,
+   "torque": 54.3,
+   "wear": 165,
+   "temp_diff": 7.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1263,
+   "torque": 67.8,
+   "wear": 197,
+   "temp_diff": 7.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1446,
+   "torque": 40.9,
+   "wear": 211,
+   "temp_diff": 7.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1351,
+   "torque": 41.8,
+   "wear": 10,
+   "temp_diff": 7.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1359,
+   "torque": 57.2,
+   "wear": 67,
+   "temp_diff": 7.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1307,
+   "torque": 54.0,
+   "wear": 86,
+   "temp_diff": 7.7,
+   "failed": 1
+  },
+  {
+   "rpm": 1346,
+   "torque": 62.4,
+   "wear": 106,
+   "temp_diff": 7.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1372,
+   "torque": 45.7,
+   "wear": 144,
+   "temp_diff": 8.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1349,
+   "torque": 51.2,
+   "wear": 6,
+   "temp_diff": 7.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1275,
+   "torque": 55.0,
+   "wear": 25,
+   "temp_diff": 8.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1374,
+   "torque": 48.2,
+   "wear": 65,
+   "temp_diff": 8.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1361,
+   "torque": 47.6,
+   "wear": 106,
+   "temp_diff": 8.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1372,
+   "torque": 54.3,
+   "wear": 117,
+   "temp_diff": 8.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1365,
+   "torque": 56.2,
+   "wear": 146,
+   "temp_diff": 8.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1336,
+   "torque": 52.6,
+   "wear": 172,
+   "temp_diff": 8.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1341,
+   "torque": 51.0,
+   "wear": 174,
+   "temp_diff": 8.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1330,
+   "torque": 53.7,
+   "wear": 200,
+   "temp_diff": 8.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1238,
+   "torque": 54.6,
+   "wear": 226,
+   "temp_diff": 8.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1324,
+   "torque": 54.2,
+   "wear": 228,
+   "temp_diff": 8.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1497,
+   "torque": 46.0,
+   "wear": 234,
+   "temp_diff": 8.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1349,
+   "torque": 51.1,
+   "wear": 9,
+   "temp_diff": 8.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1421,
+   "torque": 44.8,
+   "wear": 101,
+   "temp_diff": 8.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1366,
+   "torque": 50.9,
+   "wear": 200,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1301,
+   "torque": 45.1,
+   "wear": 219,
+   "temp_diff": 8.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1336,
+   "torque": 58.2,
+   "wear": 2,
+   "temp_diff": 8.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1363,
+   "torque": 46.7,
+   "wear": 29,
+   "temp_diff": 8.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1361,
+   "torque": 46.5,
+   "wear": 62,
+   "temp_diff": 8.1,
+   "failed": 1
+  },
+  {
+   "rpm": 2663,
+   "torque": 11.4,
+   "wear": 71,
+   "temp_diff": 8.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1309,
+   "torque": 52.9,
+   "wear": 86,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1344,
+   "torque": 49.3,
+   "wear": 93,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1371,
+   "torque": 54.6,
+   "wear": 112,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1521,
+   "torque": 35.9,
+   "wear": 215,
+   "temp_diff": 8.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1366,
+   "torque": 54.5,
+   "wear": 30,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1377,
+   "torque": 41.6,
+   "wear": 34,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1298,
+   "torque": 63.9,
+   "wear": 59,
+   "temp_diff": 8.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1316,
+   "torque": 50.9,
+   "wear": 69,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1363,
+   "torque": 51.8,
+   "wear": 90,
+   "temp_diff": 8.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1337,
+   "torque": 69.4,
+   "wear": 52,
+   "temp_diff": 8.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1359,
+   "torque": 56.8,
+   "wear": 194,
+   "temp_diff": 9.0,
+   "failed": 1
+  },
+  {
+   "rpm": 2659,
+   "torque": 11.4,
+   "wear": 26,
+   "temp_diff": 9.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1363,
+   "torque": 62.5,
+   "wear": 200,
+   "temp_diff": 8.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1422,
+   "torque": 48.0,
+   "wear": 215,
+   "temp_diff": 9.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1454,
+   "torque": 54.8,
+   "wear": 253,
+   "temp_diff": 9.7,
+   "failed": 1
+  },
+  {
+   "rpm": 1450,
+   "torque": 52.1,
+   "wear": 213,
+   "temp_diff": 9.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1257,
+   "torque": 71.3,
+   "wear": 122,
+   "temp_diff": 9.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1369,
+   "torque": 56.2,
+   "wear": 208,
+   "temp_diff": 9.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1356,
+   "torque": 65.3,
+   "wear": 66,
+   "temp_diff": 10.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1236,
+   "torque": 64.4,
+   "wear": 177,
+   "temp_diff": 10.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1399,
+   "torque": 58.0,
+   "wear": 190,
+   "temp_diff": 10.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1577,
+   "torque": 37.9,
+   "wear": 227,
+   "temp_diff": 9.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1405,
+   "torque": 61.2,
+   "wear": 189,
+   "temp_diff": 9.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1379,
+   "torque": 57.3,
+   "wear": 204,
+   "temp_diff": 9.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1493,
+   "torque": 37.8,
+   "wear": 206,
+   "temp_diff": 9.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1397,
+   "torque": 45.9,
+   "wear": 210,
+   "temp_diff": 9.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1368,
+   "torque": 63.7,
+   "wear": 92,
+   "temp_diff": 9.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1309,
+   "torque": 65.8,
+   "wear": 75,
+   "temp_diff": 9.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1336,
+   "torque": 65.6,
+   "wear": 0,
+   "temp_diff": 9.2,
+   "failed": 1
+  },
+  {
+   "rpm": 2636,
+   "torque": 12.2,
+   "wear": 100,
+   "temp_diff": 9.6,
+   "failed": 1
+  },
+  {
+   "rpm": 2633,
+   "torque": 12.2,
+   "wear": 17,
+   "temp_diff": 10.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1416,
+   "torque": 61.8,
+   "wear": 209,
+   "temp_diff": 9.7,
+   "failed": 1
+  },
+  {
+   "rpm": 1648,
+   "torque": 30.5,
+   "wear": 217,
+   "temp_diff": 9.7,
+   "failed": 1
+  },
+  {
+   "rpm": 1288,
+   "torque": 69.6,
+   "wear": 62,
+   "temp_diff": 10.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1692,
+   "torque": 29.0,
+   "wear": 216,
+   "temp_diff": 11.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1524,
+   "torque": 38.9,
+   "wear": 214,
+   "temp_diff": 11.3,
+   "failed": 1
+  },
+  {
+   "rpm": 2579,
+   "torque": 12.5,
+   "wear": 64,
+   "temp_diff": 11.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1255,
+   "torque": 71.8,
+   "wear": 149,
+   "temp_diff": 10.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1296,
+   "torque": 61.3,
+   "wear": 202,
+   "temp_diff": 10.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1336,
+   "torque": 58.4,
+   "wear": 189,
+   "temp_diff": 11.1,
+   "failed": 1
+  },
+  {
+   "rpm": 2097,
+   "torque": 18.9,
+   "wear": 232,
+   "temp_diff": 11.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1368,
+   "torque": 57.9,
+   "wear": 191,
+   "temp_diff": 11.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1272,
+   "torque": 59.2,
+   "wear": 198,
+   "temp_diff": 11.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1200,
+   "torque": 76.6,
+   "wear": 3,
+   "temp_diff": 11.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1374,
+   "torque": 47.9,
+   "wear": 222,
+   "temp_diff": 11.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1465,
+   "torque": 59.1,
+   "wear": 91,
+   "temp_diff": 11.6,
+   "failed": 1
+  },
+  {
+   "rpm": 1335,
+   "torque": 57.1,
+   "wear": 194,
+   "temp_diff": 11.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1399,
+   "torque": 50.2,
+   "wear": 222,
+   "temp_diff": 11.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1737,
+   "torque": 27.0,
+   "wear": 225,
+   "temp_diff": 11.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1303,
+   "torque": 68.6,
+   "wear": 111,
+   "temp_diff": 11.3,
+   "failed": 1
+  },
+  {
+   "rpm": 1402,
+   "torque": 69.7,
+   "wear": 64,
+   "temp_diff": 11.4,
+   "failed": 1
+  },
+  {
+   "rpm": 2617,
+   "torque": 12.1,
+   "wear": 102,
+   "temp_diff": 11.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1369,
+   "torque": 50.6,
+   "wear": 220,
+   "temp_diff": 11.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1475,
+   "torque": 40.5,
+   "wear": 222,
+   "temp_diff": 10.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1325,
+   "torque": 62.4,
+   "wear": 204,
+   "temp_diff": 11.4,
+   "failed": 1
+  },
+  {
+   "rpm": 1459,
+   "torque": 59.6,
+   "wear": 207,
+   "temp_diff": 11.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1340,
+   "torque": 61.3,
+   "wear": 207,
+   "temp_diff": 10.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1431,
+   "torque": 49.7,
+   "wear": 210,
+   "temp_diff": 10.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1396,
+   "torque": 52.7,
+   "wear": 212,
+   "temp_diff": 10.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1615,
+   "torque": 35.4,
+   "wear": 217,
+   "temp_diff": 10.8,
+   "failed": 1
+  },
+  {
+   "rpm": 1403,
+   "torque": 64.2,
+   "wear": 0,
+   "temp_diff": 11.2,
+   "failed": 1
+  },
+  {
+   "rpm": 1354,
+   "torque": 53.9,
+   "wear": 207,
+   "temp_diff": 10.5,
+   "failed": 1
+  },
+  {
+   "rpm": 1398,
+   "torque": 55.4,
+   "wear": 217,
+   "temp_diff": 10.7,
+   "failed": 1
+  },
+  {
+   "rpm": 1373,
+   "torque": 55.7,
+   "wear": 201,
+   "temp_diff": 10.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1367,
+   "torque": 56.3,
+   "wear": 203,
+   "temp_diff": 10.9,
+   "failed": 1
+  },
+  {
+   "rpm": 1317,
+   "torque": 54.8,
+   "wear": 231,
+   "temp_diff": 11.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1352,
+   "torque": 48.9,
+   "wear": 238,
+   "temp_diff": 11.1,
+   "failed": 1
+  },
+  {
+   "rpm": 1294,
+   "torque": 66.7,
+   "wear": 12,
+   "temp_diff": 11.0,
+   "failed": 1
+  },
+  {
+   "rpm": 1360,
+   "torque": 60.9,
+   "wear": 187,
+   "temp_diff": 10.9,
+   "failed": 1
+  }
+ ]
+}

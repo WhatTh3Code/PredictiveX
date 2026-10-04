@@ -1,0 +1,234 @@
+{
+ "protocol": "5-fold stratified CV on the training split, default hyper-parameters",
+ "results": {
+  "logistic_regression": {
+   "raw_only": {
+    "cv_pr_auc_mean": 0.4386,
+    "cv_pr_auc_std": 0.0848,
+    "engineered": []
+   },
+   "raw+temp_diff_k": {
+    "cv_pr_auc_mean": 0.4389,
+    "cv_pr_auc_std": 0.0862,
+    "engineered": [
+     "temp_diff_k"
+    ]
+   },
+   "raw+power_w": {
+    "cv_pr_auc_mean": 0.4654,
+    "cv_pr_auc_std": 0.0832,
+    "engineered": [
+     "power_w"
+    ]
+   },
+   "raw+strain_nm_min": {
+    "cv_pr_auc_mean": 0.4372,
+    "cv_pr_auc_std": 0.0906,
+    "engineered": [
+     "strain_nm_min"
+    ]
+   },
+   "raw+all_engineered": {
+    "cv_pr_auc_mean": 0.4667,
+    "cv_pr_auc_std": 0.0807,
+    "engineered": [
+     "temp_diff_k",
+     "power_w",
+     "strain_nm_min"
+    ]
+   }
+  },
+  "random_forest": {
+   "raw_only": {
+    "cv_pr_auc_mean": 0.7734,
+    "cv_pr_auc_std": 0.0355,
+    "engineered": []
+   },
+   "raw+temp_diff_k": {
+    "cv_pr_auc_mean": 0.829,
+    "cv_pr_auc_std": 0.0329,
+    "engineered": [
+     "temp_diff_k"
+    ]
+   },
+   "raw+power_w": {
+    "cv_pr_auc_mean": 0.8245,
+    "cv_pr_auc_std": 0.0304,
+    "engineered": [
+     "power_w"
+    ]
+   },
+   "raw+strain_nm_min": {
+    "cv_pr_auc_mean": 0.807,
+    "cv_pr_auc_std": 0.0169,
+    "engineered": [
+     "strain_nm_min"
+    ]
+   },
+   "raw+all_engineered": {
+    "cv_pr_auc_mean": 0.9095,
+    "cv_pr_auc_std": 0.0184,
+    "engineered": [
+     "temp_diff_k",
+     "power_w",
+     "strain_nm_min"
+    ]
+   }
+  },
+  "hist_gradient_boosting": {
+   "raw_only": {
+    "cv_pr_auc_mean": 0.7461,
+    "cv_pr_auc_std": 0.0354,
+    "engineered": []
+   },
+   "raw+temp_diff_k": {
+    "cv_pr_auc_mean": 0.8073,
+    "cv_pr_auc_std": 0.0457,
+    "engineered": [
+     "temp_diff_k"
+    ]
+   },
+   "raw+power_w": {
+    "cv_pr_auc_mean": 0.7844,
+    "cv_pr_auc_std": 0.0224,
+    "engineered": [
+     "power_w"
+    ]
+   },
+   "raw+strain_nm_min": {
+    "cv_pr_auc_mean": 0.7843,
+    "cv_pr_auc_std": 0.0328,
+    "engineered": [
+     "strain_nm_min"
+    ]
+   },
+   "raw+all_engineered": {
+    "cv_pr_auc_mean": 0.8593,
+    "cv_pr_auc_std": 0.0296,
+    "engineered": [
+     "temp_diff_k",
+     "power_w",
+     "strain_nm_min"
+    ]
+   }
+  },
+  "xgboost": {
+   "raw_only": {
+    "cv_pr_auc_mean": 0.7556,
+    "cv_pr_auc_std": 0.0438,
+    "engineered": []
+   },
+   "raw+temp_diff_k": {
+    "cv_pr_auc_mean": 0.7938,
+    "cv_pr_auc_std": 0.0422,
+    "engineered": [
+     "temp_diff_k"
+    ]
+   },
+   "raw+power_w": {
+    "cv_pr_auc_mean": 0.7718,
+    "cv_pr_auc_std": 0.0574,
+    "engineered": [
+     "power_w"
+    ]
+   },
+   "raw+strain_nm_min": {
+    "cv_pr_auc_mean": 0.8048,
+    "cv_pr_auc_std": 0.0105,
+    "engineered": [
+     "strain_nm_min"
+    ]
+   },
+   "raw+all_engineered": {
+    "cv_pr_auc_mean": 0.8476,
+    "cv_pr_auc_std": 0.0331,
+    "engineered": [
+     "temp_diff_k",
+     "power_w",
+     "strain_nm_min"
+    ]
+   }
+  }
+ },
+ "chosen_per_model": {
+  "logistic_regression": [
+   "temp_diff_k",
+   "power_w",
+   "strain_nm_min"
+  ],
+  "random_forest": [
+   "temp_diff_k",
+   "power_w",
+   "strain_nm_min"
+  ],
+  "hist_gradient_boosting": [
+   "temp_diff_k",
+   "power_w",
+   "strain_nm_min"
+  ],
+  "xgboost": [
+   "temp_diff_k",
+   "power_w",
+   "strain_nm_min"
+  ]
+ },
+ "selected_model_marginal": {
+  "selected_set": {
+   "engineered": [
+    "temp_diff_k",
+    "power_w",
+    "strain_nm_min"
+   ],
+   "cv_pr_auc_mean": 0.9109,
+   "cv_pr_auc_std": 0.0145,
+   "validation_pr_auc": 0.8989
+  },
+  "raw_only": {
+   "engineered": [],
+   "cv_pr_auc_mean": 0.7821,
+   "cv_pr_auc_std": 0.0399,
+   "validation_pr_auc": 0.7933
+  },
+  "without_temp_diff_k": {
+   "engineered": [
+    "power_w",
+    "strain_nm_min"
+   ],
+   "cv_pr_auc_mean": 0.8742,
+   "cv_pr_auc_std": 0.022,
+   "validation_pr_auc": 0.8894
+  },
+  "without_power_w": {
+   "engineered": [
+    "temp_diff_k",
+    "strain_nm_min"
+   ],
+   "cv_pr_auc_mean": 0.8765,
+   "cv_pr_auc_std": 0.0163,
+   "validation_pr_auc": 0.8461
+  },
+  "without_strain_nm_min": {
+   "engineered": [
+    "temp_diff_k",
+    "power_w"
+   ],
+   "cv_pr_auc_mean": 0.8884,
+   "cv_pr_auc_std": 0.0227,
+   "validation_pr_auc": 0.8828
+  }
+ },
+ "definitions": {
+  "temp_diff_k": {
+   "formula": "process_temp_k - air_temp_k",
+   "reason": "Small process-air temperature gap indicates poor heat dissipation."
+  },
+  "power_w": {
+   "formula": "torque_nm * rotational_speed_rpm * 2*pi/60",
+   "reason": "Mechanical power; failures are associated with both very low and very high power."
+  },
+  "strain_nm_min": {
+   "formula": "tool_wear_min * torque_nm",
+   "reason": "Accumulated load on a worn tool, a proxy for overstrain."
+  }
+ }
+}

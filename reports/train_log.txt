@@ -1,0 +1,16 @@
+[09:47:35] train=6000 (204 failures) val=2000 test=2000; families=['logistic_regression', 'random_forest', 'hist_gradient_boosting', 'xgboost']
+[09:47:35] ablation logistic_regression: raw_only=0.439, raw+temp_diff_k=0.439, raw+power_w=0.465, raw+strain_nm_min=0.437, raw+all_engineered=0.467 -> raw+all_engineered
+[09:48:00] ablation random_forest: raw_only=0.773, raw+temp_diff_k=0.829, raw+power_w=0.825, raw+strain_nm_min=0.807, raw+all_engineered=0.909 -> raw+all_engineered
+[09:48:05] ablation hist_gradient_boosting: raw_only=0.746, raw+temp_diff_k=0.807, raw+power_w=0.784, raw+strain_nm_min=0.784, raw+all_engineered=0.859 -> raw+all_engineered
+[09:48:08] ablation xgboost: raw_only=0.756, raw+temp_diff_k=0.794, raw+power_w=0.772, raw+strain_nm_min=0.805, raw+all_engineered=0.848 -> raw+all_engineered
+[09:48:09] logistic_regression: cv=0.467 val PR-AUC=0.544 ROC=0.935 P=0.281 R=0.716 F1=0.403 @thr=0.087 {'clf__C': 1.0, 'clf__class_weight': None}
+[09:50:21] random_forest: cv=0.911 val PR-AUC=0.899 ROC=0.973 P=0.934 R=0.851 F1=0.891 @thr=0.393 {'n_estimators': 500, 'min_samples_leaf': 4, 'max_features': 0.5, 'max_depth': 16, 'class_weight': None}
+[09:51:05] hist_gradient_boosting: cv=0.897 val PR-AUC=0.872 ROC=0.966 P=0.871 R=0.806 F1=0.837 @thr=0.354 {'min_samples_leaf': 10, 'max_leaf_nodes': 15, 'max_iter': 200, 'learning_rate': 0.03, 'l2_regularization': 1.0, 'class_weight': None}
+[09:51:14] xgboost: cv=0.879 val PR-AUC=0.877 ROC=0.971 P=0.809 R=0.821 F1=0.815 @thr=0.254 {'subsample': 0.8, 'scale_pos_weight': 1.0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.8}
+[09:51:14] SELECTED: random_forest (validation PR-AUC 0.8989)
+[09:51:25] thresholds: medium=0.0470 high=0.3931 (F1-opt 0.5103)
+[09:51:35] TEST: PR-AUC=0.893 ROC-AUC=0.966 P=0.8507 R=0.8382 F1=0.8444 CM={'tn': 1922, 'fp': 10, 'fn': 11, 'tp': 57}
+[09:53:51] robustness mean={'pr_auc': 0.902, 'roc_auc': 0.9737, 'precision': 0.8783, 'recall': 0.8441, 'f1': 0.8599} std={'pr_auc': 0.0062, 'roc_auc': 0.0049, 'precision': 0.0539, 'recall': 0.0072, 'f1': 0.0229}
+[09:53:56] failure-mode: random_forest val macroF1=0.9631 test macroF1=0.9561
+[09:55:33] SHAP additivity max error=6.66e-16; top=['strain_nm_min', 'rotational_speed_rpm', 'temp_diff_k', 'power_w']
+[09:55:35] done in 480s -> models/predictivex_model.joblib
